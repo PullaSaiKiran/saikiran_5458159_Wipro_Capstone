@@ -1,0 +1,43 @@
+2026-05-17 13:45:47,666 - INFO - =====================================
+2026-05-17 13:45:47,668 - INFO - Start Test
+2026-05-17 13:45:47,668 - INFO - Reading Configuration
+2026-05-17 13:45:47,668 - INFO - Browser from config: 'edge'
+2026-05-17 13:45:47,668 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-17 13:45:47,669 - INFO - Browser from config:false
+2026-05-17 13:45:53,265 - INFO - Opened Browser:edge
+2026-05-17 13:45:56,349 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-17 13:46:36,590 - INFO - Closing the browser
+2026-05-17 13:46:36,590 - INFO - ENDING THE TEST
+2026-05-17 13:46:36,591 - INFO - =======================================
+2026-05-17 13:46:58,384 - INFO - =====================================
+2026-05-17 13:46:58,385 - INFO - Start Test
+2026-05-17 13:46:58,385 - INFO - Reading Configuration
+2026-05-17 13:46:58,385 - INFO - Browser from config: 'edge'
+2026-05-17 13:46:58,385 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-17 13:46:58,385 - INFO - Browser from config:false
+2026-05-17 13:47:01,252 - INFO - Opened Browser:edge
+2026-05-17 13:47:06,148 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-17 13:47:48,631 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=65281): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/91df1c470d64318dc3dd8b7c1d2a6b86
+2026-05-17 13:47:52,712 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=65281): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/91df1c470d64318dc3dd8b7c1d2a6b86
+2026-05-17 13:47:58,363 - INFO - =====================================
+2026-05-17 13:47:58,364 - INFO - Start Test
+2026-05-17 13:47:58,364 - INFO - Reading Configuration
+2026-05-17 13:47:58,364 - INFO - Browser from config: 'edge'
+2026-05-17 13:47:58,364 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-17 13:47:58,364 - INFO - Browser from config:false
+2026-05-17 13:48:00,943 - INFO - Opened Browser:edge
+2026-05-17 13:48:05,542 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-17 13:48:54,212 - INFO - Closing the browser
+2026-05-17 13:48:54,212 - INFO - ENDING THE TEST
+2026-05-17 13:48:54,213 - INFO - =======================================
+2026-05-17 13:49:09,208 - INFO - =====================================
+2026-05-17 13:49:09,209 - INFO - Start Test
+2026-05-17 13:49:09,209 - INFO - Reading Configuration
+2026-05-17 13:49:09,209 - INFO - Browser from config: 'edge'
+2026-05-17 13:49:09,209 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-17 13:49:09,209 - INFO - Browser from config:false
+2026-05-17 13:49:11,664 - INFO - Opened Browser:edge
+2026-05-17 13:49:15,779 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-17 13:49:56,547 - INFO - Closing the browser
+2026-05-17 13:49:56,547 - INFO - ENDING THE TEST
+2026-05-17 13:49:56,547 - INFO - =======================================
