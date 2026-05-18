@@ -1,11 +1,9 @@
-from selenium import webdriver
+
 from pages.login_page import LoginPage
 import time
 
-def test_login(driver):
-    driver = webdriver.Chrome()
 
-    driver.maximize_window()
+def test_login(driver):
 
     login = LoginPage(driver)
 
@@ -26,11 +24,8 @@ def test_login(driver):
     # Click Verify & Continue
     login.click_verify_continue()
 
-
     # Verify OTP Page
     if login.verify_otp_page():
         print("OTP Page Displayed Successfully")
     else:
         print("OTP Page Not Displayed")
-
-    driver.quit()

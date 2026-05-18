@@ -41,3 +41,151 @@
 2026-05-17 13:49:56,547 - INFO - Closing the browser
 2026-05-17 13:49:56,547 - INFO - ENDING THE TEST
 2026-05-17 13:49:56,547 - INFO - =======================================
+2026-05-18 10:05:47,211 - INFO - =====================================
+2026-05-18 10:05:47,212 - INFO - Start Test
+2026-05-18 10:05:47,213 - INFO - Reading Configuration
+2026-05-18 10:05:47,213 - INFO - Browser from config: 'edge'
+2026-05-18 10:05:47,214 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:05:47,214 - INFO - Browser from config:false
+2026-05-18 10:05:49,975 - INFO - Opened Browser:edge
+2026-05-18 10:05:54,047 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:06:06,480 - INFO - Closing the browser
+2026-05-18 10:06:06,480 - INFO - ENDING THE TEST
+2026-05-18 10:06:06,480 - INFO - =======================================
+2026-05-18 10:14:28,395 - INFO - =====================================
+2026-05-18 10:14:28,395 - INFO - START TEST
+2026-05-18 10:14:28,395 - INFO - Reading Configuration
+2026-05-18 10:14:28,395 - INFO - Browser from config: edge
+2026-05-18 10:14:28,395 - INFO - Base URL: https://www.bigbasket.com/
+2026-05-18 10:14:28,395 - INFO - Headless Mode: False
+2026-05-18 10:14:28,403 - INFO - ====== WebDriver manager ======
+2026-05-18 10:14:38,152 - INFO - Get LATEST edgedriver version for Edge 148.0.3967
+2026-05-18 10:15:04,606 - INFO - =====================================
+2026-05-18 10:15:04,606 - INFO - Start Test
+2026-05-18 10:15:04,606 - INFO - Reading Configuration
+2026-05-18 10:15:04,606 - INFO - Browser from config: 'edge'
+2026-05-18 10:15:04,606 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:15:04,607 - INFO - Browser from config:false
+2026-05-18 10:15:07,269 - INFO - Opened Browser:edge
+2026-05-18 10:15:11,960 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:15:21,056 - INFO - Closing the browser
+2026-05-18 10:15:21,056 - INFO - ENDING THE TEST
+2026-05-18 10:15:21,057 - INFO - =======================================
+2026-05-18 10:15:29,894 - INFO - =====================================
+2026-05-18 10:15:29,894 - INFO - START TEST
+2026-05-18 10:15:29,894 - INFO - Reading Configuration
+2026-05-18 10:15:29,894 - INFO - Browser from config: edge
+2026-05-18 10:15:29,894 - INFO - Base URL: https://www.bigbasket.com/
+2026-05-18 10:15:29,894 - INFO - Headless Mode: False
+2026-05-18 10:15:29,899 - INFO - ====== WebDriver manager ======
+2026-05-18 10:15:38,763 - INFO - Get LATEST edgedriver version for Edge 148.0.3967
+2026-05-18 10:16:05,385 - INFO - =====================================
+2026-05-18 10:16:05,386 - INFO - Start Test
+2026-05-18 10:16:05,386 - INFO - Reading Configuration
+2026-05-18 10:16:05,386 - INFO - Browser from config: 'edge'
+2026-05-18 10:16:05,386 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:16:05,386 - INFO - Browser from config:false
+2026-05-18 10:16:08,061 - INFO - Opened Browser:edge
+2026-05-18 10:16:12,953 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:16:51,515 - INFO - Closing the browser
+2026-05-18 10:16:51,515 - INFO - ENDING THE TEST
+2026-05-18 10:16:51,516 - INFO - =======================================
+2026-05-18 10:16:57,981 - INFO - =====================================
+2026-05-18 10:16:57,981 - INFO - Start Test
+2026-05-18 10:16:57,982 - INFO - Reading Configuration
+2026-05-18 10:16:57,982 - INFO - Browser from config: 'edge'
+2026-05-18 10:16:57,982 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:16:57,982 - INFO - Browser from config:false
+2026-05-18 10:17:00,599 - INFO - Opened Browser:edge
+2026-05-18 10:17:04,328 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:17:36,325 - INFO - Closing the browser
+2026-05-18 10:17:36,325 - INFO - ENDING THE TEST
+2026-05-18 10:17:36,325 - INFO - =======================================
+2026-05-18 10:17:59,439 - INFO - =====================================
+2026-05-18 10:17:59,440 - INFO - Start Test
+2026-05-18 10:17:59,440 - INFO - Reading Configuration
+2026-05-18 10:17:59,440 - INFO - Browser from config: 'edge'
+2026-05-18 10:17:59,440 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:17:59,440 - INFO - Browser from config:false
+2026-05-18 10:18:02,235 - INFO - Opened Browser:edge
+2026-05-18 10:18:05,956 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:18:31,387 - INFO - Closing the browser
+2026-05-18 10:18:31,387 - INFO - ENDING THE TEST
+2026-05-18 10:18:31,387 - INFO - =======================================
+2026-05-18 10:19:37,381 - INFO - =====================================
+2026-05-18 10:19:37,381 - INFO - Start Test
+2026-05-18 10:19:37,381 - INFO - Reading Configuration
+2026-05-18 10:19:37,381 - INFO - Browser from config: 'edge'
+2026-05-18 10:19:37,381 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:19:37,382 - INFO - Browser from config:false
+2026-05-18 10:19:39,629 - INFO - Opened Browser:edge
+2026-05-18 10:19:44,033 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:20:31,550 - INFO - Closing the browser
+2026-05-18 10:20:31,551 - INFO - ENDING THE TEST
+2026-05-18 10:20:31,551 - INFO - =======================================
+2026-05-18 10:28:59,013 - INFO - =====================================
+2026-05-18 10:28:59,014 - INFO - Start Test
+2026-05-18 10:28:59,014 - INFO - Reading Configuration
+2026-05-18 10:28:59,014 - INFO - Browser from config: 'edge'
+2026-05-18 10:28:59,014 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:28:59,014 - INFO - Browser from config:false
+2026-05-18 10:29:01,612 - INFO - Opened Browser:edge
+2026-05-18 10:29:06,113 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:29:34,948 - INFO - Closing the browser
+2026-05-18 10:29:34,948 - INFO - ENDING THE TEST
+2026-05-18 10:29:34,948 - INFO - =======================================
+2026-05-18 10:37:22,065 - INFO - =====================================
+2026-05-18 10:37:22,065 - INFO - Start Test
+2026-05-18 10:37:22,065 - INFO - Reading Configuration
+2026-05-18 10:37:22,065 - INFO - Browser from config: 'edge'
+2026-05-18 10:37:22,066 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:37:22,066 - INFO - Browser from config:false
+2026-05-18 10:37:24,927 - INFO - Opened Browser:edge
+2026-05-18 10:37:29,285 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:37:58,661 - INFO - Closing the browser
+2026-05-18 10:37:58,661 - INFO - ENDING THE TEST
+2026-05-18 10:37:58,661 - INFO - =======================================
+2026-05-18 10:45:50,707 - INFO - =====================================
+2026-05-18 10:45:50,707 - INFO - Start Test
+2026-05-18 10:45:50,708 - INFO - Reading Configuration
+2026-05-18 10:45:50,708 - INFO - Browser from config: 'edge'
+2026-05-18 10:45:50,708 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:45:50,709 - INFO - Browser from config:false
+2026-05-18 10:45:53,462 - INFO - Opened Browser:edge
+2026-05-18 10:45:57,760 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:46:30,067 - INFO - Closing the browser
+2026-05-18 10:46:30,067 - INFO - ENDING THE TEST
+2026-05-18 10:46:30,067 - INFO - =======================================
+2026-05-18 10:47:38,326 - INFO - =====================================
+2026-05-18 10:47:38,326 - INFO - Start Test
+2026-05-18 10:47:38,326 - INFO - Reading Configuration
+2026-05-18 10:47:38,326 - INFO - Browser from config: 'edge'
+2026-05-18 10:47:38,327 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 10:47:38,327 - INFO - Browser from config:false
+2026-05-18 10:47:41,218 - INFO - Opened Browser:edge
+2026-05-18 10:47:46,142 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 10:48:18,956 - INFO - Closing the browser
+2026-05-18 10:48:18,957 - INFO - ENDING THE TEST
+2026-05-18 10:48:18,957 - INFO - =======================================
+2026-05-18 11:26:22,516 - INFO - =====================================
+2026-05-18 11:26:22,516 - INFO - Start Test
+2026-05-18 11:26:22,516 - INFO - Reading Configuration
+2026-05-18 11:26:22,516 - INFO - Browser from config: 'edge'
+2026-05-18 11:26:22,516 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 11:26:22,517 - INFO - Browser from config:false
+2026-05-18 11:26:25,413 - INFO - Opened Browser:edge
+2026-05-18 11:26:29,209 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 11:26:50,452 - INFO - Closing the browser
+2026-05-18 11:26:50,452 - INFO - ENDING THE TEST
+2026-05-18 11:26:50,452 - INFO - =======================================
+2026-05-18 11:33:17,647 - INFO - =====================================
+2026-05-18 11:33:17,648 - INFO - Start Test
+2026-05-18 11:33:17,648 - INFO - Reading Configuration
+2026-05-18 11:33:17,648 - INFO - Browser from config: 'edge'
+2026-05-18 11:33:17,648 - INFO - Browser from config:https://www.bigbasket.com/
+2026-05-18 11:33:17,648 - INFO - Browser from config:false
+2026-05-18 11:33:20,908 - INFO - Opened Browser:edge
+2026-05-18 11:33:25,281 - INFO - Url Loaded:https://www.bigbasket.com/
+2026-05-18 11:33:58,135 - INFO - Closing the browser
+2026-05-18 11:33:58,135 - INFO - ENDING THE TEST
+2026-05-18 11:33:58,135 - INFO - =======================================
