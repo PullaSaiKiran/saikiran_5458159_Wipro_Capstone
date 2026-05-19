@@ -1,191 +1,161 @@
-2026-05-17 13:45:47,666 - INFO - =====================================
-2026-05-17 13:45:47,668 - INFO - Start Test
-2026-05-17 13:45:47,668 - INFO - Reading Configuration
-2026-05-17 13:45:47,668 - INFO - Browser from config: 'edge'
-2026-05-17 13:45:47,668 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-17 13:45:47,669 - INFO - Browser from config:false
-2026-05-17 13:45:53,265 - INFO - Opened Browser:edge
-2026-05-17 13:45:56,349 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-17 13:46:36,590 - INFO - Closing the browser
-2026-05-17 13:46:36,590 - INFO - ENDING THE TEST
-2026-05-17 13:46:36,591 - INFO - =======================================
-2026-05-17 13:46:58,384 - INFO - =====================================
-2026-05-17 13:46:58,385 - INFO - Start Test
-2026-05-17 13:46:58,385 - INFO - Reading Configuration
-2026-05-17 13:46:58,385 - INFO - Browser from config: 'edge'
-2026-05-17 13:46:58,385 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-17 13:46:58,385 - INFO - Browser from config:false
-2026-05-17 13:47:01,252 - INFO - Opened Browser:edge
-2026-05-17 13:47:06,148 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-17 13:47:48,631 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=65281): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/91df1c470d64318dc3dd8b7c1d2a6b86
-2026-05-17 13:47:52,712 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=65281): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/91df1c470d64318dc3dd8b7c1d2a6b86
-2026-05-17 13:47:58,363 - INFO - =====================================
-2026-05-17 13:47:58,364 - INFO - Start Test
-2026-05-17 13:47:58,364 - INFO - Reading Configuration
-2026-05-17 13:47:58,364 - INFO - Browser from config: 'edge'
-2026-05-17 13:47:58,364 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-17 13:47:58,364 - INFO - Browser from config:false
-2026-05-17 13:48:00,943 - INFO - Opened Browser:edge
-2026-05-17 13:48:05,542 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-17 13:48:54,212 - INFO - Closing the browser
-2026-05-17 13:48:54,212 - INFO - ENDING THE TEST
-2026-05-17 13:48:54,213 - INFO - =======================================
-2026-05-17 13:49:09,208 - INFO - =====================================
-2026-05-17 13:49:09,209 - INFO - Start Test
-2026-05-17 13:49:09,209 - INFO - Reading Configuration
-2026-05-17 13:49:09,209 - INFO - Browser from config: 'edge'
-2026-05-17 13:49:09,209 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-17 13:49:09,209 - INFO - Browser from config:false
-2026-05-17 13:49:11,664 - INFO - Opened Browser:edge
-2026-05-17 13:49:15,779 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-17 13:49:56,547 - INFO - Closing the browser
-2026-05-17 13:49:56,547 - INFO - ENDING THE TEST
-2026-05-17 13:49:56,547 - INFO - =======================================
-2026-05-18 10:05:47,211 - INFO - =====================================
-2026-05-18 10:05:47,212 - INFO - Start Test
-2026-05-18 10:05:47,213 - INFO - Reading Configuration
-2026-05-18 10:05:47,213 - INFO - Browser from config: 'edge'
-2026-05-18 10:05:47,214 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:05:47,214 - INFO - Browser from config:false
-2026-05-18 10:05:49,975 - INFO - Opened Browser:edge
-2026-05-18 10:05:54,047 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:06:06,480 - INFO - Closing the browser
-2026-05-18 10:06:06,480 - INFO - ENDING THE TEST
-2026-05-18 10:06:06,480 - INFO - =======================================
-2026-05-18 10:14:28,395 - INFO - =====================================
-2026-05-18 10:14:28,395 - INFO - START TEST
-2026-05-18 10:14:28,395 - INFO - Reading Configuration
-2026-05-18 10:14:28,395 - INFO - Browser from config: edge
-2026-05-18 10:14:28,395 - INFO - Base URL: https://www.bigbasket.com/
-2026-05-18 10:14:28,395 - INFO - Headless Mode: False
-2026-05-18 10:14:28,403 - INFO - ====== WebDriver manager ======
-2026-05-18 10:14:38,152 - INFO - Get LATEST edgedriver version for Edge 148.0.3967
-2026-05-18 10:15:04,606 - INFO - =====================================
-2026-05-18 10:15:04,606 - INFO - Start Test
-2026-05-18 10:15:04,606 - INFO - Reading Configuration
-2026-05-18 10:15:04,606 - INFO - Browser from config: 'edge'
-2026-05-18 10:15:04,606 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:15:04,607 - INFO - Browser from config:false
-2026-05-18 10:15:07,269 - INFO - Opened Browser:edge
-2026-05-18 10:15:11,960 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:15:21,056 - INFO - Closing the browser
-2026-05-18 10:15:21,056 - INFO - ENDING THE TEST
-2026-05-18 10:15:21,057 - INFO - =======================================
-2026-05-18 10:15:29,894 - INFO - =====================================
-2026-05-18 10:15:29,894 - INFO - START TEST
-2026-05-18 10:15:29,894 - INFO - Reading Configuration
-2026-05-18 10:15:29,894 - INFO - Browser from config: edge
-2026-05-18 10:15:29,894 - INFO - Base URL: https://www.bigbasket.com/
-2026-05-18 10:15:29,894 - INFO - Headless Mode: False
-2026-05-18 10:15:29,899 - INFO - ====== WebDriver manager ======
-2026-05-18 10:15:38,763 - INFO - Get LATEST edgedriver version for Edge 148.0.3967
-2026-05-18 10:16:05,385 - INFO - =====================================
-2026-05-18 10:16:05,386 - INFO - Start Test
-2026-05-18 10:16:05,386 - INFO - Reading Configuration
-2026-05-18 10:16:05,386 - INFO - Browser from config: 'edge'
-2026-05-18 10:16:05,386 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:16:05,386 - INFO - Browser from config:false
-2026-05-18 10:16:08,061 - INFO - Opened Browser:edge
-2026-05-18 10:16:12,953 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:16:51,515 - INFO - Closing the browser
-2026-05-18 10:16:51,515 - INFO - ENDING THE TEST
-2026-05-18 10:16:51,516 - INFO - =======================================
-2026-05-18 10:16:57,981 - INFO - =====================================
-2026-05-18 10:16:57,981 - INFO - Start Test
-2026-05-18 10:16:57,982 - INFO - Reading Configuration
-2026-05-18 10:16:57,982 - INFO - Browser from config: 'edge'
-2026-05-18 10:16:57,982 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:16:57,982 - INFO - Browser from config:false
-2026-05-18 10:17:00,599 - INFO - Opened Browser:edge
-2026-05-18 10:17:04,328 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:17:36,325 - INFO - Closing the browser
-2026-05-18 10:17:36,325 - INFO - ENDING THE TEST
-2026-05-18 10:17:36,325 - INFO - =======================================
-2026-05-18 10:17:59,439 - INFO - =====================================
-2026-05-18 10:17:59,440 - INFO - Start Test
-2026-05-18 10:17:59,440 - INFO - Reading Configuration
-2026-05-18 10:17:59,440 - INFO - Browser from config: 'edge'
-2026-05-18 10:17:59,440 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:17:59,440 - INFO - Browser from config:false
-2026-05-18 10:18:02,235 - INFO - Opened Browser:edge
-2026-05-18 10:18:05,956 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:18:31,387 - INFO - Closing the browser
-2026-05-18 10:18:31,387 - INFO - ENDING THE TEST
-2026-05-18 10:18:31,387 - INFO - =======================================
-2026-05-18 10:19:37,381 - INFO - =====================================
-2026-05-18 10:19:37,381 - INFO - Start Test
-2026-05-18 10:19:37,381 - INFO - Reading Configuration
-2026-05-18 10:19:37,381 - INFO - Browser from config: 'edge'
-2026-05-18 10:19:37,381 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:19:37,382 - INFO - Browser from config:false
-2026-05-18 10:19:39,629 - INFO - Opened Browser:edge
-2026-05-18 10:19:44,033 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:20:31,550 - INFO - Closing the browser
-2026-05-18 10:20:31,551 - INFO - ENDING THE TEST
-2026-05-18 10:20:31,551 - INFO - =======================================
-2026-05-18 10:28:59,013 - INFO - =====================================
-2026-05-18 10:28:59,014 - INFO - Start Test
-2026-05-18 10:28:59,014 - INFO - Reading Configuration
-2026-05-18 10:28:59,014 - INFO - Browser from config: 'edge'
-2026-05-18 10:28:59,014 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:28:59,014 - INFO - Browser from config:false
-2026-05-18 10:29:01,612 - INFO - Opened Browser:edge
-2026-05-18 10:29:06,113 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:29:34,948 - INFO - Closing the browser
-2026-05-18 10:29:34,948 - INFO - ENDING THE TEST
-2026-05-18 10:29:34,948 - INFO - =======================================
-2026-05-18 10:37:22,065 - INFO - =====================================
-2026-05-18 10:37:22,065 - INFO - Start Test
-2026-05-18 10:37:22,065 - INFO - Reading Configuration
-2026-05-18 10:37:22,065 - INFO - Browser from config: 'edge'
-2026-05-18 10:37:22,066 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:37:22,066 - INFO - Browser from config:false
-2026-05-18 10:37:24,927 - INFO - Opened Browser:edge
-2026-05-18 10:37:29,285 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:37:58,661 - INFO - Closing the browser
-2026-05-18 10:37:58,661 - INFO - ENDING THE TEST
-2026-05-18 10:37:58,661 - INFO - =======================================
-2026-05-18 10:45:50,707 - INFO - =====================================
-2026-05-18 10:45:50,707 - INFO - Start Test
-2026-05-18 10:45:50,708 - INFO - Reading Configuration
-2026-05-18 10:45:50,708 - INFO - Browser from config: 'edge'
-2026-05-18 10:45:50,708 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:45:50,709 - INFO - Browser from config:false
-2026-05-18 10:45:53,462 - INFO - Opened Browser:edge
-2026-05-18 10:45:57,760 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:46:30,067 - INFO - Closing the browser
-2026-05-18 10:46:30,067 - INFO - ENDING THE TEST
-2026-05-18 10:46:30,067 - INFO - =======================================
-2026-05-18 10:47:38,326 - INFO - =====================================
-2026-05-18 10:47:38,326 - INFO - Start Test
-2026-05-18 10:47:38,326 - INFO - Reading Configuration
-2026-05-18 10:47:38,326 - INFO - Browser from config: 'edge'
-2026-05-18 10:47:38,327 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 10:47:38,327 - INFO - Browser from config:false
-2026-05-18 10:47:41,218 - INFO - Opened Browser:edge
-2026-05-18 10:47:46,142 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 10:48:18,956 - INFO - Closing the browser
-2026-05-18 10:48:18,957 - INFO - ENDING THE TEST
-2026-05-18 10:48:18,957 - INFO - =======================================
-2026-05-18 11:26:22,516 - INFO - =====================================
-2026-05-18 11:26:22,516 - INFO - Start Test
-2026-05-18 11:26:22,516 - INFO - Reading Configuration
-2026-05-18 11:26:22,516 - INFO - Browser from config: 'edge'
-2026-05-18 11:26:22,516 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 11:26:22,517 - INFO - Browser from config:false
-2026-05-18 11:26:25,413 - INFO - Opened Browser:edge
-2026-05-18 11:26:29,209 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 11:26:50,452 - INFO - Closing the browser
-2026-05-18 11:26:50,452 - INFO - ENDING THE TEST
-2026-05-18 11:26:50,452 - INFO - =======================================
-2026-05-18 11:33:17,647 - INFO - =====================================
-2026-05-18 11:33:17,648 - INFO - Start Test
-2026-05-18 11:33:17,648 - INFO - Reading Configuration
-2026-05-18 11:33:17,648 - INFO - Browser from config: 'edge'
-2026-05-18 11:33:17,648 - INFO - Browser from config:https://www.bigbasket.com/
-2026-05-18 11:33:17,648 - INFO - Browser from config:false
-2026-05-18 11:33:20,908 - INFO - Opened Browser:edge
-2026-05-18 11:33:25,281 - INFO - Url Loaded:https://www.bigbasket.com/
-2026-05-18 11:33:58,135 - INFO - Closing the browser
-2026-05-18 11:33:58,135 - INFO - ENDING THE TEST
-2026-05-18 11:33:58,135 - INFO - =======================================
+2026-05-19 10:36:11,618 - INFO - Opened Browser: edge
+2026-05-19 10:36:16,513 - INFO - Starting BigBasket Flow Test
+2026-05-19 10:36:16,513 - INFO - Opening BigBasket Website
+2026-05-19 10:36:23,970 - INFO - Clicking Login Button
+2026-05-19 10:39:23,972 - INFO - Opened Browser: edge
+2026-05-19 10:39:29,987 - INFO - Starting BigBasket Flow Test
+2026-05-19 10:39:29,987 - INFO - Opening BigBasket Website
+2026-05-19 10:39:38,303 - INFO - Clicking Login Button
+2026-05-19 10:39:41,766 - INFO - Entering Mobile Number
+2026-05-19 10:39:44,945 - INFO - Clicking Continue Button
+2026-05-19 10:39:45,114 - INFO - Waiting for OTP entry in browser
+2026-05-19 10:40:05,115 - INFO - Clicking Verify & Continue
+2026-05-19 10:40:50,215 - INFO - Opened Browser: edge
+2026-05-19 10:40:55,510 - INFO - Starting BigBasket Flow Test
+2026-05-19 10:40:55,510 - INFO - Opening BigBasket Website
+2026-05-19 10:41:03,438 - INFO - Clicking Login Button
+2026-05-19 10:41:07,106 - INFO - Entering Mobile Number
+2026-05-19 10:41:10,365 - INFO - Clicking Continue Button
+2026-05-19 10:41:10,529 - INFO - Waiting for OTP entry in browser
+2026-05-19 10:41:30,530 - INFO - Clicking Verify & Continue
+2026-05-19 10:42:35,026 - INFO - Opened Browser: edge
+2026-05-19 10:42:40,911 - INFO - Starting BigBasket Flow Test
+2026-05-19 10:42:40,911 - INFO - Opening BigBasket Website
+2026-05-19 10:42:48,720 - INFO - Clicking Login Button
+2026-05-19 10:42:52,254 - INFO - Entering Mobile Number
+2026-05-19 10:42:55,430 - INFO - Clicking Continue Button
+2026-05-19 10:42:55,642 - INFO - Waiting for OTP entry in browser
+2026-05-19 10:43:25,643 - INFO - Clicking Verify & Continue
+2026-05-19 10:44:05,554 - INFO - Login Completed Successfully
+2026-05-19 10:44:05,555 - INFO - Navigating to Tea category
+2026-05-19 10:44:15,619 - INFO - Selecting Exotic & Flavoured Tea
+2026-05-19 10:44:38,906 - INFO - Applying Brand Filter: 6rasa
+2026-05-19 10:44:54,195 - INFO - Adding first product to cart
+2026-05-19 10:44:59,286 - INFO - Navigating to Ghee category
+2026-05-19 10:45:14,342 - INFO - Selecting Ghee & Vanaspati
+2026-05-19 10:45:39,956 - INFO - Adding first product to cart
+2026-05-19 10:45:45,048 - INFO - Opening cart
+2026-05-19 10:45:58,700 - INFO - Proceeding to checkout
+2026-05-19 10:46:08,907 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-19 10:50:16,829 - INFO - Opened Browser: edge
+2026-05-19 10:50:21,456 - INFO - Starting BigBasket Flow Test
+2026-05-19 10:50:21,456 - INFO - Opening BigBasket Website
+2026-05-19 10:50:28,453 - INFO - Clicking Login Button
+2026-05-19 10:50:31,811 - INFO - Entering Mobile Number
+2026-05-19 10:50:34,970 - INFO - Clicking Continue Button
+2026-05-19 10:50:35,143 - INFO - Waiting for OTP entry in browser
+2026-05-19 10:51:05,144 - INFO - Clicking Verify & Continue
+2026-05-19 10:51:30,279 - INFO - Login Completed Successfully
+2026-05-19 10:51:30,280 - INFO - Navigating to Tea category
+2026-05-19 10:51:40,346 - INFO - Selecting Exotic & Flavoured Tea
+2026-05-19 10:51:48,740 - INFO - Applying Brand Filter: 6rasa
+2026-05-19 10:51:57,068 - INFO - Adding first product to cart
+2026-05-19 10:52:02,110 - INFO - Navigating to Ghee category
+2026-05-19 10:52:17,155 - INFO - Selecting Ghee & Vanaspati
+2026-05-19 10:52:42,556 - INFO - Adding first product to cart
+2026-05-19 10:52:47,622 - INFO - Opening cart
+2026-05-19 10:53:01,515 - INFO - Proceeding to checkout
+2026-05-19 10:53:11,727 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-19 10:54:54,760 - INFO - Opened Browser: edge
+2026-05-19 10:54:59,270 - INFO - Starting BigBasket Flow Test
+2026-05-19 10:54:59,270 - INFO - Opening BigBasket Website
+2026-05-19 10:55:05,697 - INFO - Clicking Login Button
+2026-05-19 10:55:09,031 - INFO - Entering Mobile Number
+2026-05-19 10:55:12,184 - INFO - Clicking Continue Button
+2026-05-19 10:55:12,378 - INFO - Waiting for OTP entry in browser
+2026-05-19 10:55:42,379 - INFO - Clicking Verify & Continue
+2026-05-19 10:56:07,524 - INFO - Login Completed Successfully
+2026-05-19 10:56:07,525 - INFO - Navigating to Tea category
+2026-05-19 10:56:17,599 - INFO - Selecting Exotic & Flavoured Tea
+2026-05-19 10:56:26,126 - INFO - Applying Brand Filter: 6rasa
+2026-05-19 10:56:34,534 - INFO - Adding first product to cart
+2026-05-19 10:57:20,730 - INFO - Opened Browser: edge
+2026-05-19 10:57:26,300 - INFO - Starting BigBasket Flow Test
+2026-05-19 10:57:26,301 - INFO - Opening BigBasket Website
+2026-05-19 10:57:33,542 - INFO - Clicking Login Button
+2026-05-19 10:57:37,079 - INFO - Entering Mobile Number
+2026-05-19 10:57:40,443 - INFO - Clicking Continue Button
+2026-05-19 10:57:40,620 - INFO - Waiting for OTP entry in browser
+2026-05-19 10:58:10,621 - INFO - Clicking Verify & Continue
+2026-05-19 10:58:35,786 - INFO - Login Completed Successfully
+2026-05-19 10:58:35,787 - INFO - Navigating to Tea category
+2026-05-19 10:58:45,863 - INFO - Selecting Exotic & Flavoured Tea
+2026-05-19 10:58:54,325 - INFO - Applying Brand Filter: 6rasa
+2026-05-19 10:59:02,659 - INFO - Adding first product to cart
+2026-05-19 10:59:07,721 - INFO - Navigating to Ghee category
+2026-05-19 10:59:22,763 - INFO - Selecting Ghee & Vanaspati
+2026-05-19 10:59:48,253 - INFO - Adding first product to cart
+2026-05-19 10:59:53,364 - INFO - Opening cart
+2026-05-19 11:00:07,222 - INFO - Proceeding to checkout
+2026-05-19 11:00:17,462 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-19 11:01:59,923 - INFO - Opened Browser: edge
+2026-05-19 11:02:05,045 - INFO - Starting BigBasket Flow Test
+2026-05-19 11:02:05,046 - INFO - Opening BigBasket Website
+2026-05-19 11:02:12,057 - INFO - Clicking Login Button
+2026-05-19 11:02:15,402 - INFO - Entering Mobile Number
+2026-05-19 11:02:18,648 - INFO - Clicking Continue Button
+2026-05-19 11:02:18,815 - INFO - Waiting for OTP entry in browser
+2026-05-19 11:02:48,817 - INFO - Clicking Verify & Continue
+2026-05-19 11:03:14,028 - INFO - Login Completed Successfully
+2026-05-19 11:03:14,028 - INFO - Navigating to Tea category
+2026-05-19 11:03:24,098 - INFO - Selecting Exotic & Flavoured Tea
+2026-05-19 11:03:33,153 - INFO - Applying Brand Filter: 6rasa
+2026-05-19 11:03:41,489 - INFO - Adding first product to cart
+2026-05-19 11:03:46,564 - INFO - Navigating to Ghee category
+2026-05-19 11:04:01,630 - INFO - Selecting Ghee & Vanaspati
+2026-05-19 11:04:27,081 - INFO - Adding first product to cart
+2026-05-19 11:04:32,143 - INFO - Opening cart
+2026-05-19 11:04:45,645 - INFO - Proceeding to checkout
+2026-05-19 11:04:55,851 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-19 11:06:00,173 - INFO - Opened Browser: edge
+2026-05-19 11:06:04,944 - INFO - Starting BigBasket Flow Test
+2026-05-19 11:06:04,945 - INFO - Opening BigBasket Website
+2026-05-19 11:06:12,483 - INFO - Clicking Login Button
+2026-05-19 11:06:15,907 - INFO - Entering Mobile Number
+2026-05-19 11:06:19,126 - INFO - Clicking Continue Button
+2026-05-19 11:06:19,289 - INFO - Waiting for OTP entry in browser
+2026-05-19 11:06:49,290 - INFO - Clicking Verify & Continue
+2026-05-19 11:07:14,483 - INFO - Login Completed Successfully
+2026-05-19 11:07:14,483 - INFO - Navigating to Tea category
+2026-05-19 11:07:24,539 - INFO - Selecting Exotic & Flavoured Tea
+2026-05-19 11:07:33,065 - INFO - Applying Brand Filter: 6rasa
+2026-05-19 11:07:41,412 - INFO - Adding first product to cart
+2026-05-19 11:07:46,493 - INFO - Navigating to Ghee category
+2026-05-19 11:08:01,563 - INFO - Selecting Ghee & Vanaspati
+2026-05-19 11:08:27,007 - INFO - Adding first product to cart
+2026-05-19 11:08:32,102 - INFO - Opening cart
+2026-05-19 11:08:46,134 - INFO - Proceeding to checkout
+2026-05-19 11:08:56,338 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-19 11:17:21,554 - INFO - Opened Browser: edge
+2026-05-19 11:17:27,396 - INFO - Starting BigBasket Flow Test
+2026-05-19 11:17:27,396 - INFO - Opening BigBasket Website
+2026-05-19 11:17:35,989 - INFO - Clicking Login Button
+2026-05-19 11:17:39,599 - INFO - Entering Mobile Number
+2026-05-19 11:17:42,884 - INFO - Clicking Continue Button
+2026-05-19 11:17:43,040 - INFO - Waiting for OTP entry in browser
+2026-05-19 11:18:13,042 - INFO - Clicking Verify & Continue
+2026-05-19 11:18:38,255 - INFO - Login Completed Successfully
+2026-05-19 11:18:38,255 - INFO - Navigating to Tea category
+2026-05-19 11:18:49,831 - INFO - Opened Browser: edge
+2026-05-19 11:18:54,822 - INFO - Starting BigBasket Flow Test
+2026-05-19 11:18:54,822 - INFO - Opening BigBasket Website
+2026-05-19 11:19:02,475 - INFO - Clicking Login Button
+2026-05-19 11:19:47,051 - INFO - Opened Browser: edge
+2026-05-19 11:19:52,405 - INFO - Starting BigBasket Flow Test
+2026-05-19 11:19:52,405 - INFO - Opening BigBasket Website
+2026-05-19 11:19:59,980 - INFO - Clicking Login Button
+2026-05-19 11:20:03,418 - INFO - Entering Mobile Number
+2026-05-19 11:20:06,782 - INFO - Clicking Continue Button
+2026-05-19 11:20:06,925 - INFO - Waiting for OTP entry in browser
+2026-05-19 11:20:36,926 - INFO - Clicking Verify & Continue
+2026-05-19 11:21:02,124 - INFO - Login Completed Successfully
+2026-05-19 11:21:02,125 - INFO - Navigating to Tea category
+2026-05-19 11:21:12,179 - INFO - Selecting Exotic & Flavoured Tea
+2026-05-19 11:21:20,668 - INFO - Applying Brand Filter: 6rasa
+2026-05-19 11:21:29,027 - INFO - Adding first product to cart
+2026-05-19 11:21:34,097 - INFO - Navigating to Ghee category
+2026-05-19 11:21:49,142 - INFO - Selecting Ghee & Vanaspati
+2026-05-19 11:22:14,634 - INFO - Adding first product to cart
+2026-05-19 11:22:19,680 - INFO - Opening cart
+2026-05-19 11:22:33,583 - INFO - Proceeding to checkout
+2026-05-19 11:22:43,757 - INFO - BigBasket Flow Test Completed Successfully

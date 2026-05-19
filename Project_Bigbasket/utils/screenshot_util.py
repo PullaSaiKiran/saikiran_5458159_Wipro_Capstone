@@ -1,27 +1,19 @@
 import os
 from datetime import datetime
 
-from utils.logger import LogGen
-
-logger = LogGen.loggen()
-
 
 class ScreenshotUtil:
 
     @staticmethod
-    def capture_screenshot(driver, screenshot_name="screenshot"):
-        screenshot_dir = "reports/screenshots"
-        if not os.path.exists(screenshot_dir):
-            os.makedirs(screenshot_dir)
+    def capture_screenshot(driver, test_name):
 
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        clean_name = screenshot_name.replace(" ", "_")
-        screenshot_path = (
-            f"{screenshot_dir}/"
-            f"{clean_name}_{timestamp}.png"
+        base_dir = os.path.dirname(os.path.dirname(__file__))
+
+        screenshot_dir = os.path.join(
+            base_dir,
+            "screenshots"
         )
 
-        driver.save_screenshot(screenshot_path)
-        logger.info(f"Screenshot saved at: {screenshot_path}")
+        os.makedirs(screenshot_dir, exist_ok=True)
 
-        return screenshot_path
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

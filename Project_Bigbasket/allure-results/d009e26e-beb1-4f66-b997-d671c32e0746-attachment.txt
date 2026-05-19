@@ -1,0 +1,10 @@
+[32mINFO    [0m root:conftest.py:52 Opened Browser: edge
+[32mINFO    [0m root:test_end_to_end.py:26 Starting BigBasket Flow Test
+[32mINFO    [0m root:test_end_to_end.py:29 Opening BigBasket Website
+[32mINFO    [0m root:test_end_to_end.py:33 Clicking Login Button
+[32mINFO    [0m root:test_end_to_end.py:37 Entering Mobile Number
+[32mINFO    [0m root:test_end_to_end.py:41 Clicking Continue Button
+[32mINFO    [0m root:test_end_to_end.py:44 Waiting for OTP entry in browser
+[32mINFO    [0m root:test_end_to_end.py:47 Clicking Verify & Continue
+[32mINFO    [0m root:test_end_to_end.py:51 Login Completed Successfully
+[32mINFO    [0m root:test_end_to_end.py:54 Navigating to Tea category
