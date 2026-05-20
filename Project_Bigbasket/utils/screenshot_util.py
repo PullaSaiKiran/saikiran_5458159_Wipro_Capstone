@@ -1,19 +1,38 @@
 import os
+import allure
+
 from datetime import datetime
 
 
-class ScreenshotUtil:
+def take_screenshot(driver, name):
 
-    @staticmethod
-    def capture_screenshot(driver, test_name):
+    folder = "reports/screenshots"
 
-        base_dir = os.path.dirname(os.path.dirname(__file__))
+    os.makedirs(
+        folder,
+        exist_ok=True
+    )
 
-        screenshot_dir = os.path.join(
-            base_dir,
-            "screenshots"
-        )
+    timestamp = datetime.now().strftime(
+        "%Y%m%d_%H%M%S"
+    )
 
-        os.makedirs(screenshot_dir, exist_ok=True)
+    file_path = (
+        f"{folder}/{name}_{timestamp}.png"
+    )
 
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    driver.save_screenshot(
+        file_path
+    )
+
+    # ATTACH TO ALLURE REPORT
+
+    allure.attach.file(
+        file_path,
+        name=name,
+        attachment_type=allure.attachment_type.PNG
+    )
+
+    print(
+        f"Screenshot Saved: {file_path}"
+    )

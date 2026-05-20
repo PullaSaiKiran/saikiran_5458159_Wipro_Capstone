@@ -1,4 +1,0 @@
-[32mINFO    [0m root:conftest.py:52 Opened Browser: edge
-[32mINFO    [0m root:test_end_to_end.py:26 Starting BigBasket Flow Test
-[32mINFO    [0m root:test_end_to_end.py:29 Opening BigBasket Website
-[32mINFO    [0m root:test_end_to_end.py:33 Clicking Login Button

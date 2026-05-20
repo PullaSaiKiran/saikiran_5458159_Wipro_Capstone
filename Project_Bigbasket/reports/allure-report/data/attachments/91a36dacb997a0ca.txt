@@ -1,0 +1,9 @@
+[32mINFO    [0m root:conftest.py:116 Opened Browser: edge
+[32mINFO    [0m root:conftest.py:122 Opened URL: https://www.bigbasket.com/
+[32mINFO    [0m root:test_test_cases.py:254 Navigating to Ghee
+[32mINFO    [0m root:test_test_cases.py:262 Selecting Ghee And Vanaspathi
+[32mINFO    [0m root:test_test_cases.py:270 Applying Brand Filter: Amul
+[32mINFO    [0m root:test_test_cases.py:278 Adding Ghee Product To Cart
+[32mINFO    [0m root:test_test_cases.py:293 Ghee Product Screenshot Captured
+[32mINFO    [0m root:test_test_cases.py:297 Ghee Flow Test Passed
+[32mINFO    [0m root:conftest.py:166 Closing Browser

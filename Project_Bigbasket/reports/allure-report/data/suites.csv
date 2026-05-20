@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","76736","Checkout Flow Test","tests","2026-05-20","passed","2026-05-20","","test_test_cases","",""
+"","58215","Valid Login Test","tests","2026-05-20","passed","2026-05-20","","test_test_cases","",""
+"","39244","Invalid OTP Test","tests","2026-05-20","passed","2026-05-20","","test_test_cases","",""
+"","106319","Ghee Flow Test","tests","2026-05-20","passed","2026-05-20","","test_test_cases","",""
+"Verify Tea, Ghee, Add To Cart and Checkout Flow","171404","BigBasket End To End Flow","tests","2026-05-20","passed","2026-05-20","","test_end_to_end","",""
+"","94064","Tea Flow Test","tests","2026-05-20","passed","2026-05-20","","test_test_cases","",""
+"","16695","Invalid Mobile Number Test","tests","2026-05-20","passed","2026-05-20","","test_test_cases","",""
