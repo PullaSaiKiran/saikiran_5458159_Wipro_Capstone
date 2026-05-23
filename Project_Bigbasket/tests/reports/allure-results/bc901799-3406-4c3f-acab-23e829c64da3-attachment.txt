@@ -1,0 +1,7 @@
+INFO     root:conftest.py:116 Opened Browser: edge
+INFO     root:conftest.py:122 Opened URL: https://www.bigbasket.com/
+INFO     root:test_test_cases.py:423 Opening BigBasket Website
+INFO     root:test_test_cases.py:430 Entering Invalid Mobile Number
+INFO     root:test_test_cases.py:438 Invalid Mobile Screenshot Captured
+INFO     root:test_test_cases.py:442 Invalid Mobile Test Passed
+INFO     root:conftest.py:166 Closing Browser

@@ -1,0 +1,47 @@
+2026-05-22 13:35:03,192 - INFO - ========================================
+2026-05-22 13:35:03,192 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 13:35:03,194 - INFO - Starting Behave Test Execution
+2026-05-22 13:35:03,826 - INFO - Behave Execution Completed with status code : 1
+2026-05-22 13:36:35,540 - INFO - ========================================
+2026-05-22 13:36:35,540 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 13:36:35,540 - INFO - Deleting old allure-results folder
+2026-05-22 13:36:35,541 - INFO - Deleting old allure-report folder
+2026-05-22 13:36:35,543 - INFO - Starting Behave Test Execution
+2026-05-22 13:36:36,251 - INFO - ============================================================
+2026-05-22 13:36:36,251 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 13:36:36,251 - INFO - ============================================================
+2026-05-22 13:36:36,253 - INFO - Starting scenario: User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-22 13:38:03,492 - INFO - Scenario PASSED: User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-22 13:38:06,421 - INFO - ============================================================
+2026-05-22 13:38:06,421 - INFO - TEST EXECUTION COMPLETED
+2026-05-22 13:38:06,421 - INFO - ============================================================
+2026-05-22 13:38:06,605 - INFO - Behave Execution Completed with status code : 0
+2026-05-22 13:44:11,199 - INFO - ========================================
+2026-05-22 13:44:11,200 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 13:44:11,201 - INFO - Starting Behave Test Execution
+2026-05-22 13:44:11,798 - INFO - ============================================================
+2026-05-22 13:44:11,798 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 13:44:11,798 - INFO - ============================================================
+2026-05-22 13:44:11,800 - INFO - Starting scenario: User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-22 13:45:35,843 - INFO - Scenario PASSED: User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-22 13:45:38,691 - INFO - ============================================================
+2026-05-22 13:45:38,691 - INFO - TEST EXECUTION COMPLETED
+2026-05-22 13:45:38,691 - INFO - ============================================================
+2026-05-22 13:45:38,867 - INFO - Behave Execution Completed with status code : 0
+2026-05-22 13:45:38,868 - INFO - Generating Allure HTML Report
+2026-05-22 13:45:41,942 - INFO - Allure Report Generated with status code : 0
+2026-05-22 13:45:41,942 - INFO - Opening Allure Report
+2026-05-22 13:54:33,387 - INFO - ========================================
+2026-05-22 13:54:33,387 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 13:54:33,387 - INFO - ========================================
+2026-05-22 13:54:33,389 - INFO - Starting Behave Test Execution
+2026-05-22 13:54:34,129 - INFO - =================================================
+2026-05-22 13:54:34,129 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 13:54:34,129 - INFO - =================================================
+2026-05-22 13:54:34,131 - INFO - Starting Scenario : User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-22 13:55:04,451 - INFO - Screenshot saved : reports/screenshots/login_success_20260522_135504.png
+2026-05-22 13:55:20,772 - INFO - Screenshot saved : reports/screenshots/tea_product_added_20260522_135520.png
+2026-05-22 13:55:40,111 - INFO - Screenshot saved : reports/screenshots/ghee_product_added_20260522_135539.png
+2026-05-22 13:55:41,915 - INFO - Screenshot saved : reports/screenshots/cart_page_20260522_135541.png
+2026-05-22 13:55:53,042 - INFO - Screenshot saved : reports/screenshots/checkout_page_20260522_135552.png
+2026-05-22 13:55:53,153 - INFO - Screenshot saved : reports/screenshots/User_logs_in,_adds_Tea_and_Ghee_products,_and_proceeds_to_checkout_20260522_135553.png

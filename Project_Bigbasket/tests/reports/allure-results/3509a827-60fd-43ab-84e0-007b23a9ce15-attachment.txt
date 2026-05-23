@@ -1,0 +1,6 @@
+INFO     root:conftest.py:116 Opened Browser: edge
+INFO     root:conftest.py:122 Opened URL: https://www.bigbasket.com/
+INFO     root:test_test_cases.py:483 Opening BigBasket Website
+INFO     root:test_test_cases.py:496 Enter Invalid OTP Manually
+INFO     root:test_test_cases.py:503 Invalid OTP Screenshot Captured
+INFO     root:conftest.py:166 Closing Browser

@@ -1,8 +1,0 @@
-[32mINFO    [0m root:conftest.py:116 Opened Browser: edge
-[32mINFO    [0m root:conftest.py:122 Opened URL: https://www.bigbasket.com/
-[32mINFO    [0m root:test_test_cases.py:345 Opening Basket
-[32mINFO    [0m root:test_test_cases.py:364 Basket Screenshot Captured
-[32mINFO    [0m root:test_test_cases.py:368 Proceeding To Checkout
-[32mINFO    [0m root:test_test_cases.py:387 Checkout Screenshot Captured
-[32mINFO    [0m root:test_test_cases.py:391 Checkout Flow Test Passed
-[32mINFO    [0m root:conftest.py:166 Closing Browser

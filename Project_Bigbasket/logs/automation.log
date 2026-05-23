@@ -145,3 +145,825 @@
 2026-05-20 17:07:13,323 - INFO - Checkout Screenshot Captured
 2026-05-20 17:07:13,323 - INFO - BigBasket Flow Test Completed Successfully
 2026-05-20 17:07:13,325 - INFO - Closing Browser
+2026-05-20 17:34:01,666 - INFO - Opened Browser: edge
+2026-05-20 17:34:06,955 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 17:34:06,989 - INFO - Starting BigBasket Flow Test
+2026-05-20 17:34:06,990 - INFO - Opening BigBasket Website
+2026-05-20 17:34:13,733 - INFO - BigBasket Website Opened Successfully
+2026-05-20 17:34:13,733 - INFO - Clicking Login Button
+2026-05-20 17:34:17,169 - INFO - Entering Mobile Number
+2026-05-20 17:34:20,462 - INFO - Clicking Continue Button
+2026-05-20 17:34:20,652 - INFO - Waiting for OTP entry in browser
+2026-05-20 17:34:50,653 - INFO - Clicking Verify & Continue
+2026-05-20 17:35:00,957 - INFO - Login Completed Successfully
+2026-05-20 17:35:01,108 - INFO - Login Screenshot Captured
+2026-05-20 17:35:01,109 - INFO - Navigating to Tea
+2026-05-20 17:35:13,216 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-20 17:35:23,408 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-20 17:35:24,098 - INFO - Closing Browser
+2026-05-20 18:01:27,154 - INFO - Opened Browser: edge
+2026-05-20 18:01:31,479 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:01:31,519 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:01:31,520 - INFO - Opening BigBasket Website
+2026-05-20 18:01:38,844 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:01:38,906 - INFO - Login Button Displayed Successfully
+2026-05-20 18:01:38,907 - INFO - Clicking Login Button
+2026-05-20 18:01:42,462 - INFO - Mobile Input Field Displayed
+2026-05-20 18:01:42,462 - INFO - Entering Mobile Number
+2026-05-20 18:01:46,175 - INFO - Closing Browser
+2026-05-20 18:03:38,108 - INFO - Opened Browser: edge
+2026-05-20 18:03:42,406 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:03:42,450 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:03:42,450 - INFO - Opening BigBasket Website
+2026-05-20 18:03:49,384 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:03:49,446 - INFO - Login Button Displayed Successfully
+2026-05-20 18:03:49,447 - INFO - Clicking Login Button
+2026-05-20 18:03:53,050 - INFO - Mobile Input Displayed Successfully
+2026-05-20 18:03:53,051 - INFO - Entering Mobile Number
+2026-05-20 18:03:56,751 - INFO - Closing Browser
+2026-05-20 18:07:58,802 - INFO - Opened Browser: edge
+2026-05-20 18:08:02,437 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:08:02,476 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:08:02,477 - INFO - Opening BigBasket Website
+2026-05-20 18:08:09,804 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:08:09,871 - INFO - Login Button Displayed Successfully
+2026-05-20 18:08:09,871 - INFO - Clicking Login Button
+2026-05-20 18:08:13,295 - INFO - Mobile Input Displayed Successfully
+2026-05-20 18:08:13,295 - INFO - Entering Mobile Number
+2026-05-20 18:08:17,044 - INFO - Closing Browser
+2026-05-20 18:12:35,319 - INFO - Opened Browser: edge
+2026-05-20 18:12:39,683 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:12:39,718 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:12:39,718 - INFO - Opening BigBasket Website
+2026-05-20 18:12:46,385 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:12:46,385 - INFO - Clicking Login Button
+2026-05-20 18:12:49,762 - INFO - Entering Mobile Number
+2026-05-20 18:12:52,985 - INFO - Clicking Continue Button
+2026-05-20 18:12:53,147 - INFO - Waiting for OTP entry in browser
+2026-05-20 18:13:18,148 - INFO - Clicking Verify & Continue
+2026-05-20 18:13:48,966 - INFO - Closing Browser
+2026-05-20 18:22:39,094 - INFO - Opened Browser: edge
+2026-05-20 18:22:44,213 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:22:44,254 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:22:44,254 - INFO - Opening BigBasket Website
+2026-05-20 18:22:50,895 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:22:50,896 - INFO - Clicking Login Button
+2026-05-20 18:22:54,216 - INFO - Entering Mobile Number:9515703265
+2026-05-20 18:22:57,364 - INFO - Clicking Continue Button
+2026-05-20 18:22:57,500 - INFO - Waiting for OTP entry in browser
+2026-05-20 18:23:22,501 - INFO - Clicking Verify & Continue
+2026-05-20 18:23:59,097 - INFO - Login Completed Successfully
+2026-05-20 18:23:59,249 - INFO - Login Screenshot Captured
+2026-05-20 18:23:59,249 - INFO - Navigating to Tea
+2026-05-20 18:24:11,333 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-20 18:24:21,520 - INFO - Exotic Tea Filter Applied Successfully
+2026-05-20 18:24:21,520 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-20 18:24:31,729 - INFO - Tea Brand Filter Applied Successfully
+2026-05-20 18:24:31,729 - INFO - Adding Tea Product to cart
+2026-05-20 18:24:38,924 - INFO - Tea Product Screenshot Captured
+2026-05-20 18:24:38,925 - INFO - Navigating to Ghee
+2026-05-20 18:24:56,030 - INFO - Ghee & Vanaspati Displayed Successfully
+2026-05-20 18:24:56,030 - INFO - Selecting Ghee And Vanaspathi
+2026-05-20 18:25:06,136 - INFO - Applying Brand Filter: Amul
+2026-05-20 18:25:23,369 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-20 18:25:23,369 - INFO - Adding Ghee Product to cart
+2026-05-20 18:25:30,615 - INFO - Ghee Product Screenshot Captured
+2026-05-20 18:25:30,615 - INFO - Opening Basket
+2026-05-20 18:26:03,956 - INFO - Closing Browser
+2026-05-20 18:31:33,492 - INFO - Opened Browser: edge
+2026-05-20 18:31:36,700 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:31:36,732 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:31:36,732 - INFO - Opening BigBasket Website
+2026-05-20 18:31:43,506 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:31:43,506 - INFO - Clicking Login Button
+2026-05-20 18:31:46,865 - INFO - Entering Mobile Number: 9515703265
+2026-05-20 18:31:50,176 - INFO - Clicking Continue Button
+2026-05-20 18:31:50,315 - INFO - Waiting for OTP entry in browser
+2026-05-20 18:32:15,316 - INFO - Clicking Verify & Continue
+2026-05-20 18:32:51,563 - INFO - Login Completed Successfully
+2026-05-20 18:32:51,719 - INFO - Login Screenshot Captured
+2026-05-20 18:32:51,719 - INFO - Navigating to Tea
+2026-05-20 18:33:03,803 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-20 18:33:14,057 - INFO - Exotic Tea Filter Applied Successfully
+2026-05-20 18:33:14,057 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-20 18:33:24,243 - INFO - Tea Brand Filter Applied Successfully
+2026-05-20 18:33:24,243 - INFO - Adding Tea Product to cart
+2026-05-20 18:33:51,798 - INFO - Closing Browser
+2026-05-20 18:39:44,525 - INFO - Opened Browser: edge
+2026-05-20 18:39:47,927 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:39:47,959 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:39:47,959 - INFO - Opening BigBasket Website
+2026-05-20 18:39:54,466 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:39:54,530 - INFO - Clicking Login Button
+2026-05-20 18:39:57,849 - INFO - Entering Mobile Number
+2026-05-20 18:40:01,665 - INFO - Closing Browser
+2026-05-20 18:41:21,421 - INFO - Opened Browser: edge
+2026-05-20 18:41:25,055 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:41:25,090 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:41:25,091 - INFO - Opening BigBasket Website
+2026-05-20 18:41:31,716 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:41:31,762 - INFO - Clicking Login Button
+2026-05-20 18:41:35,042 - INFO - Entering Mobile Number
+2026-05-20 18:41:40,726 - INFO - Closing Browser
+2026-05-20 18:43:32,290 - INFO - Opened Browser: edge
+2026-05-20 18:43:36,804 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:43:36,837 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:43:36,837 - INFO - Opening BigBasket Website
+2026-05-20 18:43:48,636 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:43:48,636 - INFO - Clicking Login Button
+2026-05-20 18:43:53,921 - INFO - Entering Mobile Number: 9515703265
+2026-05-20 18:43:59,597 - INFO - Closing Browser
+2026-05-20 18:46:14,641 - INFO - Opened Browser: edge
+2026-05-20 18:46:23,806 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-20 18:46:23,838 - INFO - Starting BigBasket Flow Test
+2026-05-20 18:46:23,839 - INFO - Opening BigBasket Website
+2026-05-20 18:46:30,178 - INFO - BigBasket Website Opened Successfully
+2026-05-20 18:46:30,178 - INFO - Clicking Login Button
+2026-05-20 18:46:33,568 - INFO - Entering Mobile Number
+2026-05-20 18:46:36,717 - INFO - Clicking Continue Button
+2026-05-20 18:46:37,263 - INFO - Waiting for OTP entry in browser
+2026-05-20 18:47:07,264 - INFO - Clicking Verify & Continue
+2026-05-20 18:47:17,620 - INFO - Login Completed Successfully
+2026-05-20 18:47:17,795 - INFO - Login Screenshot Captured
+2026-05-20 18:47:17,796 - INFO - Navigating to Tea
+2026-05-20 18:47:29,877 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-20 18:47:39,994 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-20 18:47:50,320 - INFO - Tea Brand Filter Applied Successfully
+2026-05-20 18:47:50,321 - INFO - Adding Tea Product to cart
+2026-05-20 18:47:57,581 - INFO - Tea Product Screenshot Captured
+2026-05-20 18:47:57,581 - INFO - Navigating to Ghee
+2026-05-20 18:48:14,666 - INFO - Selecting Ghee And Vanaspathi
+2026-05-20 18:48:24,756 - INFO - Applying Brand Filter: Amul
+2026-05-20 18:48:42,119 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-20 18:48:42,119 - INFO - Adding Ghee Product to cart
+2026-05-20 18:48:49,375 - INFO - Ghee Product Screenshot Captured
+2026-05-20 18:48:49,376 - INFO - Opening Basket
+2026-05-20 18:49:02,102 - INFO - Basket Opened Successfully
+2026-05-20 18:49:02,271 - INFO - Basket Screenshot Captured
+2026-05-20 18:49:02,271 - INFO - Proceeding to Checkout
+2026-05-20 18:49:12,369 - INFO - Checkout Page Opened Successfully
+2026-05-20 18:49:12,487 - INFO - Checkout Screenshot Captured
+2026-05-20 18:49:12,487 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-20 18:49:12,488 - INFO - Closing Browser
+2026-05-21 07:22:07,897 - INFO - Opened Browser: edge
+2026-05-21 07:22:10,879 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 07:22:10,917 - INFO - Starting BigBasket Flow Test
+2026-05-21 07:22:10,918 - INFO - Opening BigBasket Website
+2026-05-21 07:22:17,684 - INFO - BigBasket Website Opened Successfully
+2026-05-21 07:22:17,684 - INFO - Clicking Login Button
+2026-05-21 07:22:20,959 - INFO - Entering Mobile Number
+2026-05-21 07:22:24,126 - INFO - Clicking Continue Button
+2026-05-21 07:22:24,296 - INFO - Waiting for OTP entry in browser
+2026-05-21 07:22:54,297 - INFO - Clicking Verify & Continue
+2026-05-21 07:23:04,585 - INFO - Login Completed Successfully
+2026-05-21 07:23:04,781 - INFO - Login Screenshot Captured
+2026-05-21 07:23:04,782 - INFO - Navigating to Tea
+2026-05-21 07:23:16,877 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 07:23:26,978 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 07:23:37,229 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 07:23:37,229 - INFO - Adding Tea Product to cart
+2026-05-21 07:23:44,543 - INFO - Tea Product Screenshot Captured
+2026-05-21 07:23:44,544 - INFO - Navigating to Ghee
+2026-05-21 07:24:01,614 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 07:24:11,739 - INFO - Applying Brand Filter: Amul
+2026-05-21 07:24:28,959 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 07:24:28,959 - INFO - Adding Ghee Product to cart
+2026-05-21 07:24:36,184 - INFO - Ghee Product Screenshot Captured
+2026-05-21 07:24:36,185 - INFO - Opening Basket
+2026-05-21 07:25:09,945 - INFO - Closing Browser
+2026-05-21 07:31:10,799 - INFO - Opened Browser: edge
+2026-05-21 07:31:16,932 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 07:31:16,988 - INFO - Starting BigBasket Flow Test
+2026-05-21 07:31:16,988 - INFO - Opening BigBasket Website
+2026-05-21 07:31:24,642 - INFO - BigBasket Website Opened Successfully
+2026-05-21 07:31:24,642 - INFO - Clicking Login Button
+2026-05-21 07:31:29,385 - INFO - Entering Mobile Number
+2026-05-21 07:31:32,664 - INFO - Clicking Continue Button
+2026-05-21 07:31:32,995 - INFO - Waiting for OTP entry in browser
+2026-05-21 07:32:02,996 - INFO - Clicking Verify & Continue
+2026-05-21 07:32:13,243 - INFO - Login Completed Successfully
+2026-05-21 07:32:13,434 - INFO - Login Screenshot Captured
+2026-05-21 07:32:13,435 - INFO - Navigating to Tea
+2026-05-21 07:32:25,500 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 07:32:35,673 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 07:32:45,929 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 07:32:45,930 - INFO - Adding Tea Product to cart
+2026-05-21 07:32:53,136 - INFO - Tea Product Screenshot Captured
+2026-05-21 07:32:53,136 - INFO - Navigating to Ghee
+2026-05-21 07:33:10,195 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 07:33:20,303 - INFO - Applying Brand Filter: Amul
+2026-05-21 07:33:37,544 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 07:33:37,544 - INFO - Adding Ghee Product to cart
+2026-05-21 07:33:44,739 - INFO - Ghee Product Screenshot Captured
+2026-05-21 07:33:44,739 - INFO - Opening Basket
+2026-05-21 07:34:00,647 - INFO - Basket Opened Successfully
+2026-05-21 07:34:00,798 - INFO - Basket Screenshot Captured
+2026-05-21 07:34:00,799 - INFO - Proceeding to Checkout
+2026-05-21 07:34:10,852 - INFO - Checkout Page Opened Successfully
+2026-05-21 07:34:11,078 - INFO - Checkout Screenshot Captured
+2026-05-21 07:34:11,079 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-21 07:34:11,081 - INFO - Closing Browser
+2026-05-21 07:46:55,258 - INFO - Opened Browser: edge
+2026-05-21 07:47:01,151 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 07:47:01,237 - INFO - Starting BigBasket Flow Test
+2026-05-21 07:47:01,237 - INFO - Opening BigBasket Website
+2026-05-21 07:47:08,717 - INFO - BigBasket Website Opened Successfully
+2026-05-21 07:47:08,718 - INFO - Clicking Login Button
+2026-05-21 07:47:12,036 - INFO - Entering Mobile Number9515703265
+2026-05-21 07:47:15,201 - INFO - Clicking Continue Button
+2026-05-21 07:47:15,373 - INFO - Waiting for OTP entry in browser
+2026-05-21 07:47:45,374 - INFO - Clicking Verify & Continue
+2026-05-21 07:48:16,378 - INFO - Closing Browser
+2026-05-21 07:51:20,297 - INFO - Opened Browser: edge
+2026-05-21 07:51:24,606 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 07:51:24,639 - INFO - Starting BigBasket Flow Test
+2026-05-21 07:51:24,639 - INFO - Opening BigBasket Website
+2026-05-21 07:51:31,604 - INFO - BigBasket Website Opened Successfully
+2026-05-21 07:51:31,604 - INFO - Clicking Login Button
+2026-05-21 07:51:34,925 - INFO - Entering Mobile Number9515703265
+2026-05-21 07:51:38,123 - INFO - Clicking Continue Button
+2026-05-21 07:51:38,280 - INFO - Waiting for OTP entry in browser
+2026-05-21 07:52:08,280 - INFO - Clicking Verify & Continue
+2026-05-21 07:52:39,177 - INFO - Closing Browser
+2026-05-21 07:54:04,041 - INFO - Opened Browser: edge
+2026-05-21 07:54:08,105 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 07:54:08,139 - INFO - Starting BigBasket Flow Test
+2026-05-21 07:54:08,139 - INFO - Opening BigBasket Website
+2026-05-21 07:54:15,162 - INFO - BigBasket Website Opened Successfully
+2026-05-21 07:54:15,162 - INFO - Clicking Login Button
+2026-05-21 07:54:18,467 - INFO - Entering Mobile Number9515703265
+2026-05-21 07:54:21,648 - INFO - Clicking Continue Button
+2026-05-21 07:54:21,788 - INFO - Waiting for OTP entry in browser
+2026-05-21 07:54:51,788 - INFO - Clicking Verify & Continue
+2026-05-21 07:55:02,095 - INFO - Login Completed Successfully
+2026-05-21 07:55:02,286 - INFO - Login Screenshot Captured
+2026-05-21 07:55:02,287 - INFO - Navigating to Tea
+2026-05-21 07:55:14,369 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 07:55:24,529 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 07:55:34,837 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 07:55:34,838 - INFO - Adding Tea Product to cart
+2026-05-21 07:55:42,052 - INFO - Tea Product Screenshot Captured
+2026-05-21 07:55:42,052 - INFO - Navigating to Ghee
+2026-05-21 07:55:59,136 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 07:56:09,252 - INFO - Applying Brand Filter: Amul
+2026-05-21 07:56:26,514 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 07:56:26,514 - INFO - Adding Ghee Product to cart
+2026-05-21 07:56:33,732 - INFO - Ghee Product Screenshot Captured
+2026-05-21 07:56:33,733 - INFO - Opening Basket
+2026-05-21 07:57:06,922 - INFO - Closing Browser
+2026-05-21 07:58:05,558 - INFO - Opened Browser: edge
+2026-05-21 07:58:09,645 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 07:58:09,685 - INFO - Starting BigBasket Flow Test
+2026-05-21 07:58:09,686 - INFO - Opening BigBasket Website
+2026-05-21 07:58:16,819 - INFO - BigBasket Website Opened Successfully
+2026-05-21 07:58:16,819 - INFO - Clicking Login Button
+2026-05-21 07:58:20,168 - INFO - Entering Mobile Number9515703265
+2026-05-21 07:58:23,499 - INFO - Clicking Continue Button
+2026-05-21 07:58:23,691 - INFO - Waiting for OTP entry in browser
+2026-05-21 07:58:53,692 - INFO - Clicking Verify & Continue
+2026-05-21 07:59:04,372 - INFO - Closing Browser
+2026-05-21 07:59:58,841 - INFO - Opened Browser: edge
+2026-05-21 08:00:04,157 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 08:00:04,216 - INFO - Starting BigBasket Flow Test
+2026-05-21 08:00:04,216 - INFO - Opening BigBasket Website
+2026-05-21 08:00:11,709 - INFO - BigBasket Website Opened Successfully
+2026-05-21 08:00:11,710 - INFO - Clicking Login Button
+2026-05-21 08:00:15,068 - INFO - Entering Mobile Number9515703265
+2026-05-21 08:00:18,257 - INFO - Clicking Continue Button
+2026-05-21 08:00:18,404 - INFO - Waiting for OTP entry in browser
+2026-05-21 08:00:48,405 - INFO - Clicking Verify & Continue
+2026-05-21 08:00:58,619 - INFO - Login Completed Successfully
+2026-05-21 08:00:58,796 - INFO - Login Screenshot Captured
+2026-05-21 08:00:58,797 - INFO - Navigating to Tea
+2026-05-21 08:01:10,869 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 08:01:21,027 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 08:01:31,845 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 08:01:31,845 - INFO - Adding Tea Product to cart
+2026-05-21 08:01:39,051 - INFO - Tea Product Screenshot Captured
+2026-05-21 08:01:39,052 - INFO - Navigating to Ghee
+2026-05-21 08:01:56,124 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 08:02:06,238 - INFO - Applying Brand Filter: Amul
+2026-05-21 08:02:23,498 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 08:02:23,498 - INFO - Adding Ghee Product to cart
+2026-05-21 08:02:30,754 - INFO - Ghee Product Screenshot Captured
+2026-05-21 08:02:30,754 - INFO - Opening Basket
+2026-05-21 08:03:04,187 - INFO - Closing Browser
+2026-05-21 08:04:31,428 - INFO - Opened Browser: edge
+2026-05-21 08:04:37,801 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 08:04:37,844 - INFO - Starting BigBasket Flow Test
+2026-05-21 08:04:37,845 - INFO - Opening BigBasket Website
+2026-05-21 08:04:45,848 - INFO - BigBasket Website Opened Successfully
+2026-05-21 08:04:45,849 - INFO - Clicking Login Button
+2026-05-21 08:04:49,221 - INFO - Entering Mobile Number9515703265
+2026-05-21 08:04:52,425 - INFO - Clicking Continue Button
+2026-05-21 08:04:52,585 - INFO - Waiting for OTP entry in browser
+2026-05-21 08:05:22,585 - INFO - Clicking Verify & Continue
+2026-05-21 08:05:32,717 - INFO - Login Completed Successfully
+2026-05-21 08:05:32,889 - INFO - Login Screenshot Captured
+2026-05-21 08:05:32,890 - INFO - Navigating to Tea
+2026-05-21 08:05:44,962 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 08:05:55,069 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 08:06:05,309 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 08:06:05,310 - INFO - Adding Tea Product to cart
+2026-05-21 08:06:12,560 - INFO - Tea Product Screenshot Captured
+2026-05-21 08:06:12,560 - INFO - Navigating to Ghee
+2026-05-21 08:06:29,614 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 08:06:39,717 - INFO - Applying Brand Filter: Amul
+2026-05-21 08:06:56,948 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 08:06:56,948 - INFO - Adding Ghee Product to cart
+2026-05-21 08:07:04,199 - INFO - Ghee Product Screenshot Captured
+2026-05-21 08:07:04,200 - INFO - Opening Basket
+2026-05-21 08:07:37,508 - INFO - Closing Browser
+2026-05-21 08:09:00,183 - INFO - Opened Browser: edge
+2026-05-21 08:09:04,559 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 08:09:04,602 - INFO - Starting BigBasket Flow Test
+2026-05-21 08:09:04,602 - INFO - Opening BigBasket Website
+2026-05-21 08:09:11,998 - INFO - BigBasket Website Opened Successfully
+2026-05-21 08:09:11,998 - INFO - Clicking Login Button
+2026-05-21 08:09:15,307 - INFO - Entering Mobile Number9515703265
+2026-05-21 08:09:18,475 - INFO - Clicking Continue Button
+2026-05-21 08:09:18,652 - INFO - Waiting for OTP entry in browser
+2026-05-21 08:09:48,653 - INFO - Clicking Verify & Continue
+2026-05-21 08:09:58,831 - INFO - Login Completed Successfully
+2026-05-21 08:09:59,009 - INFO - Login Screenshot Captured
+2026-05-21 08:09:59,010 - INFO - Navigating to Tea
+2026-05-21 08:10:11,110 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 08:10:21,284 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 08:10:31,555 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 08:10:31,556 - INFO - Adding Tea Product to cart
+2026-05-21 08:10:38,758 - INFO - Tea Product Screenshot Captured
+2026-05-21 08:10:38,759 - INFO - Navigating to Ghee
+2026-05-21 08:10:55,810 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 08:11:05,934 - INFO - Applying Brand Filter: Amul
+2026-05-21 08:11:23,215 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 08:11:23,215 - INFO - Adding Ghee Product to cart
+2026-05-21 08:11:30,445 - INFO - Ghee Product Screenshot Captured
+2026-05-21 08:11:30,445 - INFO - Opening Basket
+2026-05-21 08:12:03,668 - INFO - Closing Browser
+2026-05-21 08:12:34,366 - INFO - Opened Browser: edge
+2026-05-21 08:12:40,147 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 08:12:40,235 - INFO - Starting BigBasket Flow Test
+2026-05-21 08:12:40,235 - INFO - Opening BigBasket Website
+2026-05-21 08:12:47,516 - INFO - BigBasket Website Opened Successfully
+2026-05-21 08:12:47,516 - INFO - Clicking Login Button
+2026-05-21 08:12:50,888 - INFO - Entering Mobile Number9515703265
+2026-05-21 08:12:54,034 - INFO - Clicking Continue Button
+2026-05-21 08:12:54,252 - INFO - Waiting for OTP entry in browser
+2026-05-21 08:13:24,253 - INFO - Clicking Verify & Continue
+2026-05-21 08:13:34,426 - INFO - Login Completed Successfully
+2026-05-21 08:13:34,596 - INFO - Login Screenshot Captured
+2026-05-21 08:13:34,596 - INFO - Navigating to Tea
+2026-05-21 08:13:46,665 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 08:13:56,803 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 08:14:07,065 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 08:14:07,066 - INFO - Adding Tea Product to cart
+2026-05-21 08:14:14,249 - INFO - Tea Product Screenshot Captured
+2026-05-21 08:14:14,249 - INFO - Navigating to Ghee
+2026-05-21 08:14:31,314 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 08:14:41,429 - INFO - Applying Brand Filter: Amul
+2026-05-21 08:14:58,662 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 08:14:58,662 - INFO - Adding Ghee Product to cart
+2026-05-21 08:15:05,847 - INFO - Ghee Product Screenshot Captured
+2026-05-21 08:15:05,848 - INFO - Opening Basket
+2026-05-21 08:15:39,155 - INFO - Closing Browser
+2026-05-21 08:16:04,870 - INFO - Opened Browser: edge
+2026-05-21 08:16:10,062 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 08:16:10,111 - INFO - Starting BigBasket Flow Test
+2026-05-21 08:16:10,112 - INFO - Opening BigBasket Website
+2026-05-21 08:16:17,737 - INFO - BigBasket Website Opened Successfully
+2026-05-21 08:16:17,738 - INFO - Clicking Login Button
+2026-05-21 08:16:21,096 - INFO - Entering Mobile Number9515703265
+2026-05-21 08:16:24,294 - INFO - Clicking Continue Button
+2026-05-21 08:16:24,510 - INFO - Waiting for OTP entry in browser
+2026-05-21 08:16:54,511 - INFO - Clicking Verify & Continue
+2026-05-21 08:17:04,673 - INFO - Login Completed Successfully
+2026-05-21 08:17:04,846 - INFO - Login Screenshot Captured
+2026-05-21 08:17:04,846 - INFO - Navigating to Tea
+2026-05-21 08:17:16,912 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 08:17:27,099 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 08:17:37,372 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 08:17:37,372 - INFO - Adding Tea Product to cart
+2026-05-21 08:17:44,595 - INFO - Tea Product Screenshot Captured
+2026-05-21 08:17:44,596 - INFO - Navigating to Ghee
+2026-05-21 08:18:01,658 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 08:18:11,754 - INFO - Applying Brand Filter: Amul
+2026-05-21 08:18:29,039 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 08:18:29,039 - INFO - Adding Ghee Product to cart
+2026-05-21 08:18:36,280 - INFO - Ghee Product Screenshot Captured
+2026-05-21 08:18:36,281 - INFO - Opening Basket
+2026-05-21 08:19:10,045 - INFO - Closing Browser
+2026-05-21 08:23:32,046 - INFO - Opened Browser: edge
+2026-05-21 08:23:36,870 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 08:23:36,907 - INFO - Starting BigBasket Flow Test
+2026-05-21 08:23:36,907 - INFO - Opening BigBasket Website
+2026-05-21 08:23:43,849 - INFO - BigBasket Website Opened Successfully
+2026-05-21 08:23:43,850 - INFO - Clicking Login Button
+2026-05-21 08:23:47,167 - INFO - Entering Mobile Number9515703265
+2026-05-21 08:23:50,311 - INFO - Clicking Continue Button
+2026-05-21 08:23:50,470 - INFO - Waiting for OTP entry in browser
+2026-05-21 08:24:20,471 - INFO - Clicking Verify & Continue
+2026-05-21 08:24:30,659 - INFO - Login Completed Successfully
+2026-05-21 08:24:30,852 - INFO - Login Screenshot Captured
+2026-05-21 08:24:30,852 - INFO - Navigating to Tea
+2026-05-21 08:24:42,952 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 08:24:53,125 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 08:25:03,408 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 08:25:03,409 - INFO - Adding Tea Product to cart
+2026-05-21 08:25:10,632 - INFO - Tea Product Screenshot Captured
+2026-05-21 08:25:10,632 - INFO - Navigating to Ghee
+2026-05-21 08:25:27,690 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 08:25:37,791 - INFO - Applying Brand Filter: Amul
+2026-05-21 08:25:55,114 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 08:25:55,114 - INFO - Adding Ghee Product to cart
+2026-05-21 08:26:02,400 - INFO - Ghee Product Screenshot Captured
+2026-05-21 08:26:02,401 - INFO - Opening Basket
+2026-05-21 08:26:36,503 - INFO - Closing Browser
+2026-05-21 08:30:05,148 - INFO - Opened Browser: edge
+2026-05-21 08:30:11,413 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 08:30:11,482 - INFO - Starting BigBasket Flow Test
+2026-05-21 08:30:11,483 - INFO - Opening BigBasket Website
+2026-05-21 08:30:19,219 - INFO - BigBasket Website Opened Successfully
+2026-05-21 08:30:19,219 - INFO - Clicking Login Button
+2026-05-21 08:30:22,671 - INFO - Entering Mobile Number9515703265
+2026-05-21 08:30:25,858 - INFO - Clicking Continue Button
+2026-05-21 08:30:26,059 - INFO - Waiting for OTP entry in browser
+2026-05-21 08:30:56,059 - INFO - Clicking Verify & Continue
+2026-05-21 08:31:06,199 - INFO - Login Completed Successfully
+2026-05-21 08:31:06,409 - INFO - Login Screenshot Captured
+2026-05-21 08:31:06,409 - INFO - Navigating to Tea
+2026-05-21 08:31:18,505 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 08:31:28,723 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 08:31:39,084 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 08:31:39,084 - INFO - Adding Tea Product to cart
+2026-05-21 08:31:46,312 - INFO - Tea Product Screenshot Captured
+2026-05-21 08:31:46,312 - INFO - Navigating to Ghee
+2026-05-21 08:32:03,374 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 08:32:13,489 - INFO - Applying Brand Filter: Amul
+2026-05-21 08:32:30,722 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 08:32:30,723 - INFO - Adding Ghee Product to cart
+2026-05-21 08:32:37,950 - INFO - Ghee Product Screenshot Captured
+2026-05-21 08:32:37,950 - INFO - Opening Basket
+2026-05-21 08:33:11,115 - INFO - Closing Browser
+2026-05-21 08:35:11,981 - INFO - Opened Browser: edge
+2026-05-21 08:35:18,506 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 08:35:18,584 - INFO - Starting BigBasket Flow Test
+2026-05-21 08:35:18,584 - INFO - Opening BigBasket Website
+2026-05-21 08:35:27,031 - INFO - BigBasket Website Opened Successfully
+2026-05-21 08:35:27,031 - INFO - Clicking Login Button
+2026-05-21 08:35:30,446 - INFO - Entering Mobile Number9515703265
+2026-05-21 08:35:33,648 - INFO - Clicking Continue Button
+2026-05-21 08:35:33,835 - INFO - Waiting for OTP entry in browser
+2026-05-21 08:36:03,836 - INFO - Clicking Verify & Continue
+2026-05-21 08:36:13,986 - INFO - Login Completed Successfully
+2026-05-21 08:36:14,158 - INFO - Login Screenshot Captured
+2026-05-21 08:36:14,158 - INFO - Navigating to Tea
+2026-05-21 08:36:26,259 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 08:36:36,419 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 08:36:46,709 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 08:36:46,709 - INFO - Adding Tea Product to cart
+2026-05-21 08:36:53,945 - INFO - Tea Product Screenshot Captured
+2026-05-21 08:36:53,945 - INFO - Navigating to Ghee
+2026-05-21 08:37:11,001 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 08:37:21,162 - INFO - Applying Brand Filter: Amul
+2026-05-21 08:37:38,427 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 08:37:38,427 - INFO - Adding Ghee Product to cart
+2026-05-21 08:37:45,633 - INFO - Ghee Product Screenshot Captured
+2026-05-21 08:37:45,633 - INFO - Opening Basket
+2026-05-21 08:38:19,542 - INFO - Closing Browser
+2026-05-21 09:12:18,782 - INFO - Opened Browser: edge
+2026-05-21 09:12:22,364 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 09:12:22,401 - INFO - Starting BigBasket Flow Test
+2026-05-21 09:12:22,401 - INFO - Opening BigBasket Website
+2026-05-21 09:12:29,523 - INFO - BigBasket Website Opened Successfully
+2026-05-21 09:12:29,523 - INFO - Clicking Login Button
+2026-05-21 09:12:32,944 - INFO - Entering Mobile Number
+2026-05-21 09:12:36,154 - INFO - Clicking Continue Button
+2026-05-21 09:12:36,391 - INFO - Waiting for OTP entry in browser
+2026-05-21 09:13:06,392 - INFO - Clicking Verify & Continue
+2026-05-21 09:13:16,659 - INFO - Login Completed Successfully
+2026-05-21 09:13:16,867 - INFO - Login Screenshot Captured
+2026-05-21 09:13:16,867 - INFO - Navigating to Tea
+2026-05-21 09:13:29,000 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 09:13:39,161 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 09:13:49,490 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 09:13:49,490 - INFO - Adding Tea Product to cart
+2026-05-21 09:13:56,705 - INFO - Tea Product Screenshot Captured
+2026-05-21 09:13:56,705 - INFO - Navigating to Ghee
+2026-05-21 09:14:13,803 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 09:14:23,913 - INFO - Applying Brand Filter: Amul
+2026-05-21 09:14:41,261 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 09:14:41,262 - INFO - Adding Ghee Product to cart
+2026-05-21 09:14:48,472 - INFO - Ghee Product Screenshot Captured
+2026-05-21 09:14:48,472 - INFO - Opening Basket
+2026-05-21 09:15:01,595 - INFO - Basket Opened Successfully
+2026-05-21 09:15:01,800 - INFO - Basket Screenshot Captured
+2026-05-21 09:15:01,800 - INFO - Proceeding to Checkout
+2026-05-21 09:15:11,888 - INFO - Checkout Page Opened Successfully
+2026-05-21 09:15:12,065 - INFO - Checkout Screenshot Captured
+2026-05-21 09:15:12,065 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-21 09:15:12,066 - INFO - Closing Browser
+2026-05-21 09:28:27,312 - INFO - Opened Browser: edge
+2026-05-21 09:28:31,431 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 09:28:31,475 - INFO - Starting BigBasket Flow Test
+2026-05-21 09:28:31,475 - INFO - Opening BigBasket Website
+2026-05-21 09:28:41,451 - INFO - BigBasket Website Opened Successfully
+2026-05-21 09:28:41,452 - INFO - Clicking Login Button
+2026-05-21 09:28:46,869 - INFO - Entering Mobile Number : 9515703265
+2026-05-21 09:28:52,063 - INFO - Clicking Continue Button
+2026-05-21 09:28:52,218 - INFO - Waiting for OTP entry in browser
+2026-05-21 09:29:37,219 - INFO - Clicking Verify & Continue
+2026-05-21 09:29:52,450 - INFO - Login Completed Successfully
+2026-05-21 09:29:52,625 - INFO - Login Screenshot Captured
+2026-05-21 09:29:52,625 - INFO - Navigating to Tea
+2026-05-21 09:30:04,712 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 09:30:16,872 - INFO - Exotic Tea Filter Applied Successfully
+2026-05-21 09:30:16,872 - INFO - Applying Brand Filter : ChaiPoint
+2026-05-21 09:30:29,094 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 09:30:29,094 - INFO - Adding Tea Product To Cart
+2026-05-21 09:30:39,307 - INFO - Tea Product Screenshot Captured
+2026-05-21 09:30:39,307 - INFO - Navigating to Ghee
+2026-05-21 09:30:56,370 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 09:31:06,533 - INFO - Applying Brand Filter : Amul
+2026-05-21 09:31:23,820 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 09:31:23,820 - INFO - Adding Ghee Product To Cart
+2026-05-21 09:31:34,037 - INFO - Ghee Product Screenshot Captured
+2026-05-21 09:31:34,038 - INFO - Opening Basket
+2026-05-21 09:32:12,724 - INFO - Closing Browser
+2026-05-21 09:36:55,674 - INFO - Opened Browser: edge
+2026-05-21 09:37:00,104 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 09:37:00,143 - INFO - Starting BigBasket Flow Test
+2026-05-21 09:37:00,144 - INFO - Opening BigBasket Website
+2026-05-21 09:37:10,806 - INFO - BigBasket Website Opened Successfully
+2026-05-21 09:37:10,806 - INFO - Clicking Login Button
+2026-05-21 09:37:16,144 - INFO - Entering Mobile Number : 9515703265
+2026-05-21 09:37:21,319 - INFO - Clicking Continue Button
+2026-05-21 09:37:21,518 - INFO - Waiting for OTP entry in browser
+2026-05-21 09:38:06,519 - INFO - Clicking Verify & Continue
+2026-05-21 09:38:21,717 - INFO - Login Completed Successfully
+2026-05-21 09:38:21,932 - INFO - Login Screenshot Captured
+2026-05-21 09:38:21,932 - INFO - Navigating to Tea
+2026-05-21 09:38:34,038 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 09:38:46,269 - INFO - Exotic Tea Filter Applied Successfully
+2026-05-21 09:38:46,269 - INFO - Applying Brand Filter : ChaiPoint
+2026-05-21 09:38:58,502 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 09:38:58,503 - INFO - Adding Tea Product To Cart
+2026-05-21 09:39:08,741 - INFO - Tea Product Screenshot Captured
+2026-05-21 09:39:08,742 - INFO - Navigating to Ghee
+2026-05-21 09:39:25,826 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 09:39:35,948 - INFO - Applying Brand Filter : Amul
+2026-05-21 09:39:53,207 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 09:39:53,208 - INFO - Adding Ghee Product To Cart
+2026-05-21 09:40:03,477 - INFO - Ghee Product Screenshot Captured
+2026-05-21 09:40:03,477 - INFO - Opening Basket
+2026-05-21 09:40:41,990 - INFO - Closing Browser
+2026-05-21 09:42:40,650 - INFO - Opened Browser: edge
+2026-05-21 09:42:45,363 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 09:42:45,397 - INFO - Starting BigBasket Flow Test
+2026-05-21 09:42:45,398 - INFO - Opening BigBasket Website
+2026-05-21 09:42:52,546 - INFO - BigBasket Website Opened Successfully
+2026-05-21 09:42:52,546 - INFO - Clicking Login Button
+2026-05-21 09:42:55,909 - INFO - Entering Mobile Number
+2026-05-21 09:42:59,672 - INFO - Closing Browser
+2026-05-21 09:45:47,390 - INFO - Opened Browser: edge
+2026-05-21 09:45:51,653 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 09:45:51,691 - INFO - Starting BigBasket Flow Test
+2026-05-21 09:45:51,691 - INFO - Opening BigBasket Website
+2026-05-21 09:46:04,331 - INFO - BigBasket Website Opened Successfully
+2026-05-21 09:46:04,332 - INFO - Clicking Login Button
+2026-05-21 09:46:09,675 - INFO - Entering Mobile Number
+2026-05-21 09:46:15,513 - INFO - Closing Browser
+2026-05-21 09:49:16,113 - INFO - Opened Browser: edge
+2026-05-21 09:49:20,869 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 09:49:20,905 - INFO - Starting BigBasket Flow Test
+2026-05-21 09:49:20,906 - INFO - Opening BigBasket Website
+2026-05-21 09:49:32,835 - INFO - BigBasket Website Opened Successfully
+2026-05-21 09:49:32,835 - INFO - Clicking Login Button
+2026-05-21 09:49:38,142 - INFO - Entering Mobile Number
+2026-05-21 09:49:46,341 - INFO - Mobile Number Entered Successfully
+2026-05-21 09:49:51,342 - INFO - Clicking Continue Button
+2026-05-21 09:49:56,542 - INFO - Waiting for OTP entry in browser
+2026-05-21 09:50:56,543 - INFO - Clicking Verify & Continue
+2026-05-21 09:51:11,788 - INFO - Login Completed Successfully
+2026-05-21 09:51:12,036 - INFO - Login Screenshot Captured
+2026-05-21 09:51:12,036 - INFO - Navigating to Tea
+2026-05-21 09:51:24,134 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 09:52:05,133 - INFO - Opened Browser: edge
+2026-05-21 09:52:08,825 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 09:52:08,859 - INFO - Starting BigBasket Flow Test
+2026-05-21 09:52:08,859 - INFO - Opening BigBasket Website
+2026-05-21 09:52:20,957 - INFO - BigBasket Website Opened Successfully
+2026-05-21 09:52:20,957 - INFO - Clicking Login Button
+2026-05-21 09:52:26,348 - INFO - Entering Mobile Number
+2026-05-21 09:52:34,552 - INFO - Mobile Number Entered Successfully
+2026-05-21 09:52:39,553 - INFO - Clicking Continue Button
+2026-05-21 09:52:44,728 - INFO - Waiting for OTP entry in browser
+2026-05-21 09:53:14,729 - INFO - Clicking Verify & Continue
+2026-05-21 09:53:24,937 - INFO - Login Completed Successfully
+2026-05-21 09:53:25,139 - INFO - Login Screenshot Captured
+2026-05-21 09:53:25,140 - INFO - Navigating to Tea
+2026-05-21 09:53:37,269 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 09:53:49,441 - INFO - Exotic Tea Filter Applied Successfully
+2026-05-21 09:53:49,441 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 09:54:01,691 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 09:54:01,692 - INFO - Adding Tea Product to cart
+2026-05-21 09:54:11,923 - INFO - Tea Product Screenshot Captured
+2026-05-21 09:54:11,924 - INFO - Navigating to Ghee
+2026-05-21 09:54:29,062 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 09:54:39,170 - INFO - Applying Brand Filter: Amul
+2026-05-21 09:54:56,435 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 09:54:56,436 - INFO - Adding Ghee Product to cart
+2026-05-21 09:55:06,668 - INFO - Ghee Product Screenshot Captured
+2026-05-21 09:55:06,669 - INFO - Opening Basket
+2026-05-21 09:55:45,000 - INFO - Closing Browser
+2026-05-21 09:59:04,498 - INFO - Opened Browser: edge
+2026-05-21 09:59:08,850 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 09:59:08,887 - INFO - Starting BigBasket Flow Test
+2026-05-21 09:59:08,887 - INFO - Opening BigBasket Website
+2026-05-21 09:59:21,213 - INFO - BigBasket Website Opened Successfully
+2026-05-21 09:59:21,214 - INFO - Clicking Login Button
+2026-05-21 09:59:26,539 - INFO - Entering Mobile Number
+2026-05-21 09:59:34,729 - INFO - Mobile Number Entered Successfully
+2026-05-21 09:59:39,730 - INFO - Clicking Continue Button
+2026-05-21 09:59:44,923 - INFO - Waiting for OTP entry in browser
+2026-05-21 10:00:14,924 - INFO - Clicking Verify & Continue
+2026-05-21 10:00:25,099 - INFO - Login Completed Successfully
+2026-05-21 10:00:25,315 - INFO - Login Screenshot Captured
+2026-05-21 10:00:25,316 - INFO - Navigating to Tea
+2026-05-21 10:00:37,379 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 10:00:49,561 - INFO - Exotic Tea Filter Applied Successfully
+2026-05-21 10:00:49,561 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 10:01:01,779 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 10:01:01,779 - INFO - Adding Tea Product to cart
+2026-05-21 10:01:11,983 - INFO - Tea Product Screenshot Captured
+2026-05-21 10:01:11,983 - INFO - Navigating to Ghee
+2026-05-21 10:01:29,118 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 10:01:39,219 - INFO - Applying Brand Filter: Amul
+2026-05-21 10:01:56,510 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 10:01:56,511 - INFO - Adding Ghee Product to cart
+2026-05-21 10:02:06,702 - INFO - Ghee Product Screenshot Captured
+2026-05-21 10:02:06,702 - INFO - Proceeding to Checkout
+2026-05-21 10:02:26,931 - WARNING - Checkout Page Not Opened: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff6f4a9e295+e0f5]
+	msedgedriver!GetHandleVerifier [0x7ff6f4a9e2f4+e154]
+	msedgedriver!GetHandleVerifier [0x7ff6f4e18bca+388a2a]
+	msedgedriver!(No symbol) [0x7ff6f4813e3c]
+	msedgedriver!(No symbol) [0x7ff6f48140a5]
+	msedgedriver!(No symbol) [0x7ff6f4851357]
+	msedgedriver!(No symbol) [0x7ff6f480aaa7]
+	msedgedriver!(No symbol) [0x7ff6f484f0b2]
+	msedgedriver!(No symbol) [0x7ff6f480a2ec]
+	msedgedriver!(No symbol) [0x7ff6f4809546]
+	msedgedriver!(No symbol) [0x7ff6f480a113]
+	msedgedriver!(No symbol) [0x7ff6f48d2519]
+	msedgedriver!(No symbol) [0x7ff6f48cec93]
+	msedgedriver!(No symbol) [0x7ff6f48df182]
+	msedgedriver!GetHandleVerifier [0x7ff6f4abaa68+2a8c8]
+	msedgedriver!GetHandleVerifier [0x7ff6f4ac32f6+33156]
+	msedgedriver!GetHandleVerifier [0x7ff6f4aa5724+15584]
+	msedgedriver!GetHandleVerifier [0x7ff6f4aa5845+156a5]
+	msedgedriver!GetHandleVerifier [0x7ff6f4a92b63+29c3]
+	KERNEL32!BaseThreadInitThunk [0x7ffd5dade957+17]
+	ntdll!RtlUserThreadStart [0x7ffd5e40427c+2c]
+
+2026-05-21 10:02:27,095 - INFO - Basket Screenshot Captured
+2026-05-21 10:02:27,095 - INFO - Proceeding To Checkout
+2026-05-21 10:02:47,993 - INFO - Closing Browser
+2026-05-21 12:17:51,802 - INFO - Opened Browser: edge
+2026-05-21 12:17:55,868 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:17:55,908 - INFO - Starting BigBasket Flow Test
+2026-05-21 12:17:55,908 - INFO - Opening BigBasket Website
+2026-05-21 12:18:03,183 - INFO - BigBasket Website Opened Successfully
+2026-05-21 12:18:03,184 - INFO - Clicking Login Button
+2026-05-21 12:18:06,581 - INFO - Entering Mobile Number
+2026-05-21 12:18:09,731 - INFO - Clicking Continue Button
+2026-05-21 12:18:09,907 - INFO - Waiting for OTP entry in browser
+2026-05-21 12:18:39,908 - INFO - Clicking Verify & Continue
+2026-05-21 12:18:50,180 - INFO - Login Completed Successfully
+2026-05-21 12:18:50,357 - INFO - Login Screenshot Captured
+2026-05-21 12:18:50,358 - INFO - Navigating to Tea
+2026-05-21 12:19:02,426 - INFO - Selecting Exotic&Flavoured Tea
+2026-05-21 12:19:12,540 - INFO - Applying Brand Filter: ChaiPoint
+2026-05-21 12:19:22,891 - INFO - Tea Brand Filter Applied Successfully
+2026-05-21 12:19:22,891 - INFO - Adding Tea Product to cart
+2026-05-21 12:19:30,114 - INFO - Tea Product Screenshot Captured
+2026-05-21 12:19:30,114 - INFO - Navigating to Ghee
+2026-05-21 12:19:47,183 - INFO - Selecting Ghee And Vanaspathi
+2026-05-21 12:19:57,284 - INFO - Applying Brand Filter: Amul
+2026-05-21 12:20:14,633 - INFO - Ghee Brand Filter Applied Successfully
+2026-05-21 12:20:14,634 - INFO - Adding Ghee Product to cart
+2026-05-21 12:20:21,842 - INFO - Ghee Product Screenshot Captured
+2026-05-21 12:20:21,842 - INFO - Opening Basket
+2026-05-21 12:20:35,131 - INFO - Basket Opened Successfully
+2026-05-21 12:20:35,274 - INFO - Basket Screenshot Captured
+2026-05-21 12:20:35,274 - INFO - Proceeding to Checkout
+2026-05-21 12:20:45,383 - INFO - Checkout Page Opened Successfully
+2026-05-21 12:20:45,511 - INFO - Checkout Screenshot Captured
+2026-05-21 12:20:45,512 - INFO - BigBasket Flow Test Completed Successfully
+2026-05-21 12:20:45,513 - INFO - Closing Browser
+2026-05-21 12:21:43,074 - INFO - Opened Browser: edge
+2026-05-21 12:21:46,624 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:21:46,626 - INFO - Opening BigBasket Website
+2026-05-21 12:21:53,676 - INFO - Clicking Login Button
+2026-05-21 12:21:57,106 - INFO - Entering Mobile Number9515703265
+2026-05-21 12:22:00,279 - INFO - Clicking Continue Button
+2026-05-21 12:22:00,480 - INFO - Waiting For OTP Entry
+2026-05-21 12:22:30,481 - INFO - Clicking Verify & Continue
+2026-05-21 12:23:01,550 - INFO - Closing Browser
+2026-05-21 12:23:07,980 - INFO - Opened Browser: edge
+2026-05-21 12:23:12,540 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:23:23,136 - INFO - Opened Browser: edge
+2026-05-21 12:23:55,553 - INFO - Opened Browser: edge
+2026-05-21 12:23:59,207 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:23:59,209 - INFO - Opening BigBasket Website
+2026-05-21 12:24:18,042 - INFO - Enter Invalid OTP Manually
+2026-05-21 12:24:38,397 - INFO - Invalid OTP Screenshot Captured
+2026-05-21 12:24:59,095 - INFO - Closing Browser
+2026-05-21 12:27:12,760 - INFO - Opened Browser: edge
+2026-05-21 12:27:18,978 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:27:18,980 - INFO - Opening BigBasket Website
+2026-05-21 12:27:37,884 - INFO - Enter Invalid OTP Manually
+2026-05-21 12:27:58,272 - INFO - Invalid OTP Screenshot Captured
+2026-05-21 12:27:58,891 - INFO - Closing Browser
+2026-05-21 12:31:58,559 - INFO - Opened Browser: edge
+2026-05-21 12:32:03,224 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:32:03,226 - INFO - Opening BigBasket Website
+2026-05-21 12:32:22,203 - INFO - Enter Invalid OTP Manually
+2026-05-21 12:32:42,586 - INFO - Invalid OTP Screenshot Captured
+2026-05-21 12:33:03,731 - INFO - Closing Browser
+2026-05-21 12:33:26,963 - INFO - Opened Browser: edge
+2026-05-21 12:33:31,238 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:33:31,240 - INFO - Opening BigBasket Website
+2026-05-21 12:33:50,485 - INFO - Enter Invalid OTP Manually
+2026-05-21 12:34:10,816 - INFO - Invalid OTP Screenshot Captured
+2026-05-21 12:34:31,839 - INFO - Closing Browser
+2026-05-21 12:37:06,606 - INFO - Opened Browser: edge
+2026-05-21 12:37:10,992 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:37:10,994 - INFO - Opening BigBasket Website
+2026-05-21 12:37:29,995 - INFO - Enter Invalid OTP Manually
+2026-05-21 12:37:50,333 - INFO - Invalid OTP Screenshot Captured
+2026-05-21 12:37:50,373 - INFO - Invalid OTP Test Passed
+2026-05-21 12:37:50,379 - INFO - Closing Browser
+2026-05-21 12:38:15,209 - INFO - Opened Browser: edge
+2026-05-21 12:38:19,357 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:38:19,359 - INFO - Opening BigBasket Website
+2026-05-21 12:38:30,063 - INFO - Entering Invalid Mobile Number
+2026-05-21 12:38:34,708 - INFO - Invalid Mobile Screenshot Captured
+2026-05-21 12:38:34,745 - INFO - Invalid Mobile Test Passed
+2026-05-21 12:38:34,749 - INFO - Closing Browser
+2026-05-21 12:41:56,600 - INFO - Opened Browser: edge
+2026-05-21 12:42:00,679 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:42:00,681 - INFO - Opening BigBasket Website
+2026-05-21 12:42:11,413 - INFO - Entering Invalid Mobile Number
+2026-05-21 12:42:16,012 - INFO - Invalid Mobile Screenshot Captured
+2026-05-21 12:42:16,265 - INFO - Invalid Mobile Test Passed
+2026-05-21 12:42:16,269 - INFO - Closing Browser
+2026-05-21 12:42:33,167 - INFO - Opened Browser: edge
+2026-05-21 12:42:38,010 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:42:38,013 - INFO - Opening BigBasket Website
+2026-05-21 12:42:58,563 - INFO - Enter Invalid OTP Manually
+2026-05-21 12:43:18,958 - INFO - Invalid OTP Screenshot Captured
+2026-05-21 12:43:19,236 - INFO - Invalid OTP Test Passed
+2026-05-21 12:43:19,239 - INFO - Closing Browser
+2026-05-21 12:54:09,799 - INFO - Opened Browser: edge
+2026-05-21 12:54:13,383 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:54:13,423 - INFO - Starting BigBasket Flow Test
+2026-05-21 12:54:27,238 - INFO - Waiting for OTP entry in browser
+2026-05-21 12:55:28,413 - INFO - Closing Browser
+2026-05-21 12:59:18,778 - INFO - Opened Browser: edge
+2026-05-21 12:59:23,339 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 12:59:23,380 - INFO - Starting BigBasket Flow Test
+2026-05-21 12:59:37,262 - INFO - Waiting for OTP entry in browser
+2026-05-21 13:00:38,220 - INFO - Closing Browser
+2026-05-21 13:04:50,889 - INFO - Opened Browser: edge
+2026-05-21 13:04:54,951 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 13:04:54,988 - INFO - Starting BigBasket Flow Test
+2026-05-21 13:05:09,120 - INFO - Waiting for OTP entry in browser
+2026-05-21 13:06:10,148 - INFO - Closing Browser
+2026-05-21 13:09:56,351 - INFO - Opened Browser: edge
+2026-05-21 13:10:00,381 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 13:10:00,456 - INFO - Starting BigBasket Flow Test
+2026-05-21 13:10:14,497 - INFO - Waiting for OTP entry in browser
+2026-05-21 13:11:15,024 - INFO - Closing Browser
+2026-05-21 13:11:21,274 - INFO - Opened Browser: edge
+2026-05-21 13:11:26,397 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 13:11:26,399 - INFO - Opening BigBasket Website
+2026-05-21 13:12:43,725 - INFO - Closing Browser
+2026-05-21 13:16:24,676 - INFO - Opened Browser: edge
+2026-05-21 13:16:29,274 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 13:16:29,276 - INFO - Opening BigBasket Website
+2026-05-21 13:16:36,612 - INFO - Clicking Login Button
+2026-05-21 13:16:39,997 - INFO - Entering Mobile Number: 9515703265
+2026-05-21 13:16:43,203 - INFO - Clicking Continue Button
+2026-05-21 13:16:43,366 - INFO - Waiting for OTP entry in browser
+2026-05-21 13:17:13,366 - INFO - Clicking Verify & Continue
+2026-05-21 13:17:44,640 - INFO - Closing Browser
+2026-05-21 13:22:20,964 - INFO - Opened Browser: edge
+2026-05-21 13:22:25,394 - INFO - Opened URL: https://www.bigbasket.com/
+2026-05-21 13:22:25,396 - INFO - Opening BigBasket Website
+2026-05-21 13:22:32,435 - INFO - Clicking Login Button
+2026-05-21 13:22:35,855 - INFO - Entering Mobile Number: 9515703265
+2026-05-21 13:22:39,303 - INFO - Clicking Continue Button
+2026-05-21 13:22:39,499 - INFO - Waiting for OTP entry in browser
+2026-05-21 13:23:09,500 - INFO - Clicking Verify & Continue
+2026-05-21 13:23:40,430 - INFO - Closing Browser

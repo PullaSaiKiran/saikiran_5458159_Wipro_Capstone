@@ -1,9 +1,0 @@
-[32mINFO    [0m root:conftest.py:116 Opened Browser: edge
-[32mINFO    [0m root:conftest.py:122 Opened URL: https://www.bigbasket.com/
-[32mINFO    [0m root:test_test_cases.py:163 Navigating to Tea
-[32mINFO    [0m root:test_test_cases.py:171 Selecting Exotic&Flavoured Tea
-[32mINFO    [0m root:test_test_cases.py:179 Applying Brand Filter: ChaiPoint
-[32mINFO    [0m root:test_test_cases.py:187 Adding Tea Product To Cart
-[32mINFO    [0m root:test_test_cases.py:202 Tea Product Screenshot Captured
-[32mINFO    [0m root:test_test_cases.py:206 Tea Flow Test Passed
-[32mINFO    [0m root:conftest.py:166 Closing Browser

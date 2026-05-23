@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","41225","Invalid OTP Test","tests","2026-05-21","passed","2026-05-21","","test_test_cases","",""
+"","74362","Valid Login Test","tests","2026-05-21","failed","2026-05-21","","test_test_cases","",""
+"","15586","Invalid Mobile Number Test","tests","2026-05-21","passed","2026-05-21","","test_test_cases","",""
