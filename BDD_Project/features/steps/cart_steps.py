@@ -4,7 +4,6 @@ from utils.screenshot import (
     capture_screenshot
 )
 
-
 # ==================================================
 # ADD TEA PRODUCT TO CART
 # ==================================================
@@ -48,6 +47,7 @@ def step_verify_product_added(context):
         context.driver,
         "tea_product_verified"
     )
+
 
 
 # ==================================================

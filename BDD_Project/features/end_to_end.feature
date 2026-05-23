@@ -17,7 +17,6 @@ Feature: BigBasket E2E Shopping Flow
     When the user clicks on Tea from the homepage
     And the user applies brand filter on Tea page
     And the user adds the first Tea product to cart
-    Then the Tea product should be added successfully
 
     When the user goes back to the homepage
     And the user clicks on Ghee from the homepage

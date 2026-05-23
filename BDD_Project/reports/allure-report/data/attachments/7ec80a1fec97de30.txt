@@ -1,0 +1,145 @@
+2026-05-23 10:25:20,465 - INFO - ========================================
+2026-05-23 10:25:20,465 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-23 10:25:20,465 - INFO - ========================================
+2026-05-23 10:25:20,467 - INFO - Starting Behave Test Execution
+2026-05-23 10:25:21,413 - INFO - =================================================
+2026-05-23 10:25:21,413 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-23 10:25:21,413 - INFO - =================================================
+2026-05-23 10:25:21,415 - INFO - Starting Scenario : User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-23 10:25:57,754 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_102557.png
+2026-05-23 10:26:08,003 - INFO - Screenshot saved : reports/screenshots/brand_filter_20260523_102604.png
+2026-05-23 10:26:13,324 - INFO - Screenshot saved : reports/screenshots/first_product_added_20260523_102613.png
+2026-05-23 10:26:22,589 - INFO - Screenshot saved : reports/screenshots/ghee_page_20260523_102622.png
+2026-05-23 10:26:36,647 - INFO - Screenshot saved : reports/screenshots/cart_page_20260523_102636.png
+2026-05-23 10:26:49,038 - INFO - Screenshot saved : reports/screenshots/invalid_card_entered_20260523_102648.png
+2026-05-23 10:26:49,178 - INFO - Screenshot saved : reports/screenshots/invalid_card_error_20260523_102649.png
+2026-05-23 10:26:49,303 - INFO - Screenshot saved : reports/screenshots/User_logs_in,_adds_Tea_and_Ghee_products,_and_proceeds_to_checkout_20260523_102649.png
+2026-05-23 10:26:49,327 - INFO - Scenario PASSED : User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-23 10:26:52,739 - INFO - Starting Scenario : Search And Select Tea Product
+2026-05-23 10:27:25,964 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_102725.png
+2026-05-23 10:27:33,770 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_102733.png
+2026-05-23 10:27:35,278 - INFO - Screenshot saved : reports/screenshots/tea_search_20260523_102735.png
+2026-05-23 10:27:37,113 - INFO - Screenshot saved : reports/screenshots/tea_checkbox_20260523_102736.png
+2026-05-23 10:27:42,885 - INFO - Screenshot saved : reports/screenshots/filtered_tea_products_20260523_102742.png
+2026-05-23 10:27:43,050 - INFO - Screenshot saved : reports/screenshots/Search_And_Select_Tea_Product_20260523_102742.png
+2026-05-23 10:27:43,057 - INFO - Scenario PASSED : Search And Select Tea Product
+2026-05-23 10:27:47,271 - INFO - Starting Scenario : Add Tea Product To Cart
+2026-05-23 10:28:17,660 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_102817.png
+2026-05-23 10:28:25,452 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_102825.png
+2026-05-23 10:28:29,933 - INFO - Screenshot saved : reports/screenshots/brand_filter_20260523_102829.png
+2026-05-23 10:28:30,091 - INFO - Screenshot saved : reports/screenshots/Add_Tea_Product_To_Cart_20260523_102829.png
+2026-05-23 10:28:30,098 - INFO - Scenario PASSED : Add Tea Product To Cart
+2026-05-23 10:28:32,945 - INFO - Starting Scenario : Add And Delete Tea Product
+2026-05-23 10:29:00,437 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_102900.png
+2026-05-23 10:29:08,264 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_102908.png
+2026-05-23 10:29:10,085 - INFO - Screenshot saved : reports/screenshots/tea_search_20260523_102909.png
+2026-05-23 10:29:11,934 - INFO - Screenshot saved : reports/screenshots/tea_checkbox_20260523_102910.png
+2026-05-23 10:29:18,739 - INFO - Screenshot saved : reports/screenshots/tea_product_added_20260523_102918.png
+2026-05-23 10:29:20,122 - INFO - Screenshot saved : reports/screenshots/cart_page_20260523_102919.png
+2026-05-23 10:29:25,284 - INFO - Screenshot saved : reports/screenshots/product_deleted_20260523_102925.png
+2026-05-23 10:29:29,122 - INFO - Screenshot saved : reports/screenshots/product_removed_20260523_102929.png
+2026-05-23 10:29:29,223 - INFO - Screenshot saved : reports/screenshots/Add_And_Delete_Tea_Product_20260523_102929.png
+2026-05-23 10:29:29,230 - INFO - Scenario PASSED : Add And Delete Tea Product
+2026-05-23 10:29:32,950 - INFO - Starting Scenario : Sort Ghee Products By Price Low To High
+2026-05-23 10:29:57,974 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_102957.png
+2026-05-23 10:30:05,819 - INFO - Screenshot saved : reports/screenshots/ghee_page_20260523_103005.png
+2026-05-23 10:30:09,598 - INFO - Screenshot saved : reports/screenshots/relevance_dropdown_20260523_103009.png
+2026-05-23 10:30:09,878 - INFO - Screenshot saved : reports/screenshots/price_low_to_high_20260523_103009.png
+2026-05-23 10:30:15,098 - INFO - Screenshot saved : reports/screenshots/sorted_ghee_products_20260523_103014.png
+2026-05-23 10:30:15,252 - INFO - Screenshot saved : reports/screenshots/Sort_Ghee_Products_By_Price_Low_To_High_20260523_103015.png
+2026-05-23 10:30:15,261 - INFO - Scenario PASSED : Sort Ghee Products By Price Low To High
+2026-05-23 10:30:18,870 - INFO - Starting Scenario : Login With Invalid Mobile Number
+2026-05-23 10:30:31,632 - INFO - Screenshot saved : reports/screenshots/invalid_mobile_error_20260523_103031.png
+2026-05-23 10:30:31,810 - INFO - Screenshot saved : reports/screenshots/Login_With_Invalid_Mobile_Number_20260523_103031.png
+2026-05-23 10:30:31,824 - INFO - Scenario PASSED : Login With Invalid Mobile Number
+2026-05-23 10:30:34,603 - INFO - Starting Scenario : Login With Invalid OTP
+2026-05-23 10:31:02,245 - INFO - Screenshot saved : reports/screenshots/invalid_otp_error_20260523_103102.png
+2026-05-23 10:31:02,397 - INFO - Screenshot saved : reports/screenshots/Login_With_Invalid_OTP_20260523_103102.png
+2026-05-23 10:31:02,405 - INFO - Scenario PASSED : Login With Invalid OTP
+2026-05-23 10:31:05,404 - INFO - Starting Scenario : Search Invalid Tea Product
+2026-05-23 10:31:40,313 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_103140.png
+2026-05-23 10:31:48,110 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_103147.png
+2026-05-23 10:31:49,645 - INFO - Screenshot saved : reports/screenshots/invalid_tea_search_20260523_103149.png
+2026-05-23 10:31:51,847 - INFO - Screenshot saved : reports/screenshots/no_results_found_20260523_103151.png
+2026-05-23 10:31:52,025 - INFO - Screenshot saved : reports/screenshots/Search_Invalid_Tea_Product_20260523_103151.png
+2026-05-23 10:31:52,038 - INFO - Scenario PASSED : Search Invalid Tea Product
+2026-05-23 10:31:55,153 - INFO - Starting Scenario : Enter Invalid Card Details
+2026-05-23 10:32:19,379 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_103219.png
+2026-05-23 10:32:27,149 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_103226.png
+2026-05-23 10:32:31,619 - INFO - Screenshot saved : reports/screenshots/brand_filter_20260523_103231.png
+2026-05-23 10:32:31,777 - INFO - Screenshot saved : reports/screenshots/Enter_Invalid_Card_Details_20260523_103231.png
+2026-05-23 10:32:31,784 - INFO - Scenario PASSED : Enter Invalid Card Details
+2026-05-23 10:32:35,205 - INFO - =================================================
+2026-05-23 10:32:35,205 - INFO - TEST EXECUTION COMPLETED
+2026-05-23 10:32:35,205 - INFO - =================================================
+2026-05-23 10:32:35,418 - INFO - Behave Execution Completed with status code : 1
+2026-05-23 10:32:35,418 - INFO - Generating Allure HTML Report
+2026-05-23 10:32:38,721 - INFO - Allure Report Generated with status code : 0
+2026-05-23 10:32:38,721 - INFO - Opening Allure Report
+2026-05-23 10:39:24,777 - INFO - ========================================
+2026-05-23 10:39:24,777 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-23 10:39:24,777 - INFO - ========================================
+2026-05-23 10:39:24,777 - INFO - Deleting old allure-results folder
+2026-05-23 10:39:24,790 - INFO - Deleting old allure-report folder
+2026-05-23 10:39:24,817 - INFO - Starting Behave Test Execution
+2026-05-23 10:39:26,037 - INFO - =================================================
+2026-05-23 10:39:26,037 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-23 10:39:26,037 - INFO - =================================================
+2026-05-23 10:39:26,039 - INFO - Starting Scenario : User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-23 10:40:01,151 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_104001.png
+2026-05-23 10:40:05,627 - INFO - Screenshot saved : reports/screenshots/brand_filter_20260523_104005.png
+2026-05-23 10:40:11,138 - INFO - Screenshot saved : reports/screenshots/first_product_added_20260523_104010.png
+2026-05-23 10:40:20,670 - INFO - Screenshot saved : reports/screenshots/ghee_page_20260523_104020.png
+2026-05-23 10:40:31,083 - INFO - Screenshot saved : reports/screenshots/cart_page_20260523_104030.png
+2026-05-23 10:40:40,913 - INFO - Screenshot saved : reports/screenshots/invalid_card_entered_20260523_104040.png
+2026-05-23 10:40:41,076 - INFO - Screenshot saved : reports/screenshots/invalid_card_error_20260523_104040.png
+2026-05-23 10:40:41,238 - INFO - Screenshot saved : reports/screenshots/User_logs_in,_adds_Tea_and_Ghee_products,_and_proceeds_to_checkout_20260523_104041.png
+2026-05-23 10:40:41,256 - INFO - Scenario PASSED : User logs in, adds Tea and Ghee products, and proceeds to checkout
+2026-05-23 10:40:44,820 - INFO - Starting Scenario : Search And Select Tea Product
+2026-05-23 10:41:13,841 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_104113.png
+2026-05-23 10:41:21,600 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_104121.png
+2026-05-23 10:41:23,112 - INFO - Screenshot saved : reports/screenshots/tea_search_20260523_104122.png
+2026-05-23 10:41:24,978 - INFO - Screenshot saved : reports/screenshots/tea_checkbox_20260523_104123.png
+2026-05-23 10:41:30,757 - INFO - Screenshot saved : reports/screenshots/filtered_tea_products_20260523_104130.png
+2026-05-23 10:41:30,946 - INFO - Screenshot saved : reports/screenshots/Search_And_Select_Tea_Product_20260523_104130.png
+2026-05-23 10:41:30,954 - INFO - Scenario PASSED : Search And Select Tea Product
+2026-05-23 10:41:34,107 - INFO - Starting Scenario : Add Tea Product To Cart
+2026-05-23 10:42:01,774 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_104201.png
+2026-05-23 10:42:09,851 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_104209.png
+2026-05-23 10:42:14,385 - INFO - Screenshot saved : reports/screenshots/brand_filter_20260523_104214.png
+2026-05-23 10:42:19,964 - INFO - Screenshot saved : reports/screenshots/first_product_added_20260523_104219.png
+2026-05-23 10:42:20,116 - INFO - Screenshot saved : reports/screenshots/Add_Tea_Product_To_Cart_20260523_104219.png
+2026-05-23 10:42:20,124 - INFO - Scenario PASSED : Add Tea Product To Cart
+2026-05-23 10:42:23,213 - INFO - Starting Scenario : Add And Delete Tea Product
+2026-05-23 10:42:50,402 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_104250.png
+2026-05-23 10:42:58,298 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_104258.png
+2026-05-23 10:42:59,885 - INFO - Screenshot saved : reports/screenshots/tea_search_20260523_104259.png
+2026-05-23 10:43:00,878 - INFO - Screenshot saved : reports/screenshots/tea_checkbox_20260523_104300.png
+2026-05-23 10:43:07,656 - INFO - Screenshot saved : reports/screenshots/tea_product_added_20260523_104307.png
+2026-05-23 10:43:09,304 - INFO - Screenshot saved : reports/screenshots/cart_page_20260523_104309.png
+2026-05-23 10:43:12,104 - INFO - Screenshot saved : reports/screenshots/product_deleted_20260523_104311.png
+2026-05-23 10:43:15,269 - INFO - Screenshot saved : reports/screenshots/product_removed_20260523_104315.png
+2026-05-23 10:43:15,380 - INFO - Screenshot saved : reports/screenshots/Add_And_Delete_Tea_Product_20260523_104315.png
+2026-05-23 10:43:15,387 - INFO - Scenario PASSED : Add And Delete Tea Product
+2026-05-23 10:43:19,584 - INFO - Starting Scenario : Sort Ghee Products By Price Low To High
+2026-05-23 10:43:45,704 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_104345.png
+2026-05-23 10:43:53,522 - INFO - Screenshot saved : reports/screenshots/ghee_page_20260523_104353.png
+2026-05-23 10:43:57,326 - INFO - Screenshot saved : reports/screenshots/relevance_dropdown_20260523_104357.png
+2026-05-23 10:43:57,594 - INFO - Screenshot saved : reports/screenshots/price_low_to_high_20260523_104357.png
+2026-05-23 10:44:02,813 - INFO - Screenshot saved : reports/screenshots/sorted_ghee_products_20260523_104402.png
+2026-05-23 10:44:02,970 - INFO - Screenshot saved : reports/screenshots/Sort_Ghee_Products_By_Price_Low_To_High_20260523_104402.png
+2026-05-23 10:44:02,982 - INFO - Scenario PASSED : Sort Ghee Products By Price Low To High
+2026-05-23 10:44:06,010 - INFO - Starting Scenario : Login With Invalid Mobile Number
+2026-05-23 10:44:19,436 - INFO - Screenshot saved : reports/screenshots/invalid_mobile_error_20260523_104419.png
+2026-05-23 10:44:19,608 - INFO - Screenshot saved : reports/screenshots/Login_With_Invalid_Mobile_Number_20260523_104419.png
+2026-05-23 10:44:19,617 - INFO - Scenario PASSED : Login With Invalid Mobile Number
+2026-05-23 10:44:22,506 - INFO - Starting Scenario : Login With Invalid OTP
+2026-05-23 10:44:50,228 - INFO - Screenshot saved : reports/screenshots/invalid_otp_error_20260523_104450.png
+2026-05-23 10:44:50,386 - INFO - Screenshot saved : reports/screenshots/Login_With_Invalid_OTP_20260523_104450.png
+2026-05-23 10:44:50,393 - INFO - Scenario PASSED : Login With Invalid OTP
+2026-05-23 10:44:54,260 - INFO - Starting Scenario : Search Invalid Tea Product
+2026-05-23 10:45:20,974 - INFO - Screenshot saved : reports/screenshots/login_success_20260523_104520.png
+2026-05-23 10:45:28,778 - INFO - Screenshot saved : reports/screenshots/tea_page_20260523_104528.png
+2026-05-23 10:45:30,344 - INFO - Screenshot saved : reports/screenshots/invalid_tea_search_20260523_104530.png
+2026-05-23 10:45:32,547 - INFO - Screenshot saved : reports/screenshots/no_results_found_20260523_104532.png
+2026-05-23 10:45:32,716 - INFO - Screenshot saved : reports/screenshots/Search_Invalid_Tea_Product_20260523_104532.png
