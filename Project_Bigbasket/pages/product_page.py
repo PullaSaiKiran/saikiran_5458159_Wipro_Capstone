@@ -37,6 +37,26 @@ class ProductPage(BasePage):
         By.XPATH,
         "//button[contains(@class,'increment')]"
     )
+
+    tea_header = (
+        By.XPATH,
+        "//h1[contains(text(),'Tea')]"
+    )
+
+    exotic_tea = (
+        By.XPATH,
+        "//span[contains(text(),'Exotic Tea')]"
+    )
+
+    product_brands = (
+        By.XPATH,
+        "//h3"
+    )
+
+    added_to_basket = (
+        By.XPATH,
+        "//span[contains(text(),'Added')]"
+    )
     # Filter Exotic Tea
 
     def filter_exotic_tea(self):
@@ -110,3 +130,46 @@ class ProductPage(BasePage):
         )
 
         print("Product Added Successfully")
+
+    # ==================================================
+    # PRODUCT ASSERT METHODS
+    # SELENIUM WITH PYTEST
+    # ==================================================
+
+    def tea_page_displayed(self):
+
+        return self.driver.find_element(
+            *self.tea_header
+        ).is_displayed()
+
+    def exotic_tea_displayed(self):
+
+        return self.driver.find_element(
+            *self.exotic_tea
+        ).is_displayed()
+
+    def brand_filter_applied(
+            self,
+            brand_name
+    ):
+
+        products = self.driver.find_elements(
+            *self.product_brands
+        )
+
+        for product in products:
+
+            if (
+                    brand_name.lower()
+                    in
+                    product.text.lower()
+            ):
+                return True
+
+        return False
+
+    def product_added_successfully(self):
+
+        return self.driver.find_element(
+            *self.added_to_basket
+        ).is_displayed()

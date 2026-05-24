@@ -80,7 +80,12 @@ def test_bigbasket_flow(driver):
 
     # ASSERT
 
-    assert "bigbasket" in driver.current_url.lower()
+    assert (
+        "bigbasket"
+        in driver.current_url.lower()
+    ), (
+        "BigBasket Website Not Opened"
+    )
 
     logger.info(
         "BigBasket Website Opened Successfully"
@@ -94,6 +99,14 @@ def test_bigbasket_flow(driver):
 
     time.sleep(3)
 
+    # ASSERT
+
+    assert (
+        login.login_popup_displayed()
+    ), (
+        "Login Popup Not Displayed"
+    )
+
     logger.info(
         "Entering Mobile Number"
     )
@@ -103,6 +116,16 @@ def test_bigbasket_flow(driver):
     )
 
     time.sleep(3)
+
+    # ASSERT
+
+    entered_mobile = login.get_mobile_value()
+
+    assert (
+        entered_mobile == mobile
+    ), (
+        "Mobile Number Not Entered Properly"
+    )
 
     logger.info(
         "Clicking Continue Button"
@@ -126,7 +149,11 @@ def test_bigbasket_flow(driver):
 
     # ASSERT
 
-    assert "shop" in driver.page_source.lower()
+    assert (
+        login.login_successful()
+    ), (
+        "Login Failed"
+    )
 
     logger.info(
         "Login Completed Successfully"
@@ -155,6 +182,14 @@ def test_bigbasket_flow(driver):
 
     time.sleep(10)
 
+    # ASSERT
+
+    assert (
+        product.tea_page_displayed()
+    ), (
+        "Tea Page Not Displayed"
+    )
+
     logger.info(
         f"Selecting {tea_name}"
     )
@@ -162,6 +197,14 @@ def test_bigbasket_flow(driver):
     product.filter_exotic_tea()
 
     time.sleep(8)
+
+    # ASSERT
+
+    assert (
+        product.exotic_tea_displayed()
+    ), (
+        "Exotic Tea Category Not Displayed"
+    )
 
     logger.info(
         f"Applying Brand Filter: {tea_brand}"
@@ -174,8 +217,11 @@ def test_bigbasket_flow(driver):
     # ASSERT
 
     assert (
-        tea_brand.lower()
-        in driver.page_source.lower()
+        product.brand_filter_applied(
+            tea_brand
+        )
+    ), (
+        "Tea Brand Filter Not Applied"
     )
 
     logger.info(
@@ -189,6 +235,14 @@ def test_bigbasket_flow(driver):
     product.add_first_product_to_cart()
 
     time.sleep(5)
+
+    # ASSERT
+
+    assert (
+        product.product_added_successfully()
+    ), (
+        "Tea Product Not Added To Cart"
+    )
 
     # TEA SCREENSHOT
 
@@ -213,6 +267,14 @@ def test_bigbasket_flow(driver):
 
     time.sleep(15)
 
+    # ASSERT
+
+    assert (
+        ghee_page.ghee_page_displayed()
+    ), (
+        "Ghee Page Not Displayed"
+    )
+
     logger.info(
         f"Selecting {ghee_name}"
     )
@@ -220,6 +282,14 @@ def test_bigbasket_flow(driver):
     ghee_page.click_ghee_vanaspati()
 
     time.sleep(10)
+
+    # ASSERT
+
+    assert (
+        ghee_page.ghee_category_displayed()
+    ), (
+        "Ghee Category Not Displayed"
+    )
 
     logger.info(
         f"Applying Brand Filter: {ghee_brand}"
@@ -232,8 +302,11 @@ def test_bigbasket_flow(driver):
     # ASSERT
 
     assert (
-        ghee_brand.lower()
-        in driver.page_source.lower()
+        ghee_page.brand_filter_applied(
+            ghee_brand
+        )
+    ), (
+        "Ghee Brand Filter Not Applied"
     )
 
     logger.info(
@@ -247,6 +320,14 @@ def test_bigbasket_flow(driver):
     ghee_page.add_first_product_to_cart()
 
     time.sleep(5)
+
+    # ASSERT
+
+    assert (
+        ghee_page.product_added_successfully()
+    ), (
+        "Ghee Product Not Added To Cart"
+    )
 
     # GHEE SCREENSHOT
 
@@ -274,9 +355,9 @@ def test_bigbasket_flow(driver):
     # ASSERT
 
     assert (
-        "basket" in driver.page_source.lower()
-        or
-        "cart" in driver.page_source.lower()
+        cart.cart_page_displayed()
+    ), (
+        "Cart Page Not Opened"
     )
 
     logger.info(
@@ -294,6 +375,14 @@ def test_bigbasket_flow(driver):
         "Basket Screenshot Captured"
     )
 
+    # ASSERT
+
+    assert (
+        cart.cart_has_products()
+    ), (
+        "Products Not Present In Cart"
+    )
+
     logger.info(
         "Proceeding to Checkout"
     )
@@ -305,9 +394,9 @@ def test_bigbasket_flow(driver):
     # ASSERT
 
     assert (
-        "checkout" in driver.page_source.lower()
-        or
-        "address" in driver.page_source.lower()
+        cart.checkout_page_displayed()
+    ), (
+        "Checkout Page Not Displayed"
     )
 
     logger.info(

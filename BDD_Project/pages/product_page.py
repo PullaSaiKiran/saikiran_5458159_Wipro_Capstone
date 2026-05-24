@@ -294,3 +294,12 @@ class ProductPage(BasePage):
             "No Results Message "
             "Not Displayed"
         )
+
+    # ==================================================
+    # VERIFY TEA PRODUCT VISIBLE
+    # ==================================================
+
+    def is_tea_product_visible(self):
+        return self.is_displayed(
+            ProductLocators.INCREMENT_BUTTON
+        )

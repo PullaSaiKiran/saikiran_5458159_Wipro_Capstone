@@ -1,0 +1,7 @@
+[32mINFO    [0m root:conftest.py:116 Opened Browser: edge
+[32mINFO    [0m root:conftest.py:122 Opened URL: https://www.bigbasket.com/
+[32mINFO    [0m root:test_test_cases.py:490 Opening BigBasket Website
+[32mINFO    [0m root:test_test_cases.py:512 Enter Invalid OTP Manually
+[32mINFO    [0m root:test_test_cases.py:527 Invalid OTP Screenshot Captured
+[32mINFO    [0m root:test_test_cases.py:532 Invalid OTP Test Passed
+[32mINFO    [0m root:conftest.py:166 Closing Browser

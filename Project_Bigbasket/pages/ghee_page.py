@@ -28,7 +28,25 @@ class GheePage(BasePage):
         By.XPATH,
         "//button[contains(text(),'Add')]"
     )
+    ghee_header = (
+        By.XPATH,
+        "//h1[contains(text(),'Ghee')]"
+    )
 
+    ghee_vanaspati = (
+        By.XPATH,
+        "//span[contains(text(),'Ghee & Vanaspati')]"
+    )
+
+    product_brands = (
+        By.XPATH,
+        "//h3"
+    )
+
+    added_to_basket = (
+        By.XPATH,
+        "//span[contains(text(),'Added')]"
+    )
     # Click Ghee & Vanaspati
 
     def click_ghee_vanaspati(self):
@@ -84,3 +102,46 @@ class GheePage(BasePage):
             "arguments[0].click();",
             element
         )
+
+    # ==================================================
+    # GHEE ASSERT METHODS
+    # SELENIUM WITH PYTEST
+    # ==================================================
+
+    def ghee_page_displayed(self):
+
+        return self.driver.find_element(
+            *self.ghee_header
+        ).is_displayed()
+
+    def ghee_category_displayed(self):
+
+        return self.driver.find_element(
+            *self.ghee_vanaspati
+        ).is_displayed()
+
+    def brand_filter_applied(
+            self,
+            brand_name
+    ):
+
+        products = self.driver.find_elements(
+            *self.product_brands
+        )
+
+        for product in products:
+
+            if (
+                    brand_name.lower()
+                    in
+                    product.text.lower()
+            ):
+                return True
+
+        return False
+
+    def product_added_successfully(self):
+
+        return self.driver.find_element(
+            *self.added_to_basket
+        ).is_displayed()

@@ -42,6 +42,31 @@ class LoginPage(BasePage):
         By.XPATH,
         "//*[contains(text(),'Please Enter Valid OTP')]"
     )
+
+    login_popup = (
+        By.XPATH,
+        "//div[contains(@class,'LoginModal')]"
+    )
+
+    mobile_input = (
+        By.ID,
+        "multiform"
+    )
+
+    home_logo = (
+        By.XPATH,
+        "//img[@alt='bigbasket']"
+    )
+
+    invalid_mobile_error = (
+        By.XPATH,
+        "//p[contains(text(),'Please enter valid mobile number')]"
+    )
+
+    invalid_otp_error = (
+        By.XPATH,
+        "//p[contains(text(),'Invalid OTP')]"
+    )
     # Open BigBasket Website
 
     def open_bigbasket(self):
@@ -96,3 +121,35 @@ class LoginPage(BasePage):
                 self.INVALID_OTP_POPUP
             )
         )
+
+    # ==================================================
+    # LOGIN ASSERT METHODS
+    # SELENIUM WITH PYTEST
+    # ==================================================
+
+    def login_popup_displayed(self):
+        return self.driver.find_element(
+            *self.login_popup
+        ).is_displayed()
+
+    def get_mobile_value(self):
+        return self.driver.find_element(
+            *self.mobile_input
+        ).get_attribute(
+            "value"
+        )
+
+    def login_successful(self):
+        return self.driver.find_element(
+            *self.home_logo
+        ).is_displayed()
+
+    def invalid_mobile_error_displayed(self):
+        return self.driver.find_element(
+            *self.invalid_mobile_error
+        ).is_displayed()
+
+    def invalid_otp_error_displayed(self):
+        return self.driver.find_element(
+            *self.invalid_otp_error
+        ).is_displayed()

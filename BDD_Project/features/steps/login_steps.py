@@ -10,7 +10,10 @@ from pages.login_page import (
 from pages.home_page import (
     HomePage
 )
-from pages.payment_page import PaymentPage
+
+from pages.payment_page import (
+    PaymentPage
+)
 
 from pages.product_page import (
     ProductPage
@@ -89,7 +92,21 @@ def step_user_logged_in(context):
         context.driver
     )
 
+    context.payment_page = PaymentPage(
+        context.driver
+    )
+
     context.login_page.click_login()
+
+    # ==============================================
+    # ASSERT LOGIN BUTTON CLICKED
+    # ==============================================
+
+    assert context.login_page.is_displayed(
+        LoginLocators.MOBILE_INPUT
+    ), (
+        "Login Popup Not Displayed"
+    )
 
     context.login_page.enter_mobile_email(
         mobile
@@ -113,11 +130,26 @@ def step_user_logged_in(context):
 
             time.sleep(2)
 
+    # ==============================================
+    # ASSERT VERIFY BUTTON CLICKED
+    # ==============================================
+
     assert verify_clicked, (
         "Verify Button Not Clicked"
     )
 
     time.sleep(5)
+
+    # ==============================================
+    # ASSERT LOGIN SUCCESS
+    # ==============================================
+
+    assert (
+        "bigbasket"
+        in context.driver.current_url.lower()
+    ), (
+        "Login Failed"
+    )
 
     capture_screenshot(
         context.driver,
@@ -128,6 +160,7 @@ def step_user_logged_in(context):
 # ==================================================
 # OPEN HOMEPAGE
 # ==================================================
+
 @given("the user is on the BigBasket homepage")
 def step_open_homepage(context):
 
@@ -142,9 +175,20 @@ def step_open_homepage(context):
         base_url
     )
 
-    # ======================================
+    # ==============================================
+    # ASSERT HOMEPAGE OPENED
+    # ==============================================
+
+    assert (
+        "bigbasket"
+        in context.driver.current_url.lower()
+    ), (
+        "Homepage Not Opened"
+    )
+
+    # ==============================================
     # PAGE OBJECTS
-    # ======================================
+    # ==============================================
 
     context.login_page = LoginPage(
         context.driver
@@ -165,6 +209,13 @@ def step_open_homepage(context):
     context.payment_page = PaymentPage(
         context.driver
     )
+
+    capture_screenshot(
+        context.driver,
+        "homepage_opened"
+    )
+
+
 # ==================================================
 # CLICK LOGIN BUTTON
 # ==================================================
@@ -173,6 +224,21 @@ def step_open_homepage(context):
 def step_click_login(context):
 
     context.login_page.click_login()
+
+    # ==============================================
+    # ASSERT LOGIN POPUP DISPLAYED
+    # ==============================================
+
+    assert context.login_page.is_displayed(
+        LoginLocators.MOBILE_INPUT
+    ), (
+        "Login Popup Not Displayed"
+    )
+
+    capture_screenshot(
+        context.driver,
+        "login_popup"
+    )
 
 
 # ==================================================
@@ -195,6 +261,19 @@ def step_enter_mobile(context):
 
     context.login_page.click_continue()
 
+    # ==============================================
+    # ASSERT MOBILE NUMBER ENTERED
+    # ==============================================
+
+    assert mobile is not None, (
+        "Mobile Number Not Entered"
+    )
+
+    capture_screenshot(
+        context.driver,
+        "mobile_entered"
+    )
+
 
 # ==================================================
 # ENTER INVALID MOBILE NUMBER
@@ -216,6 +295,19 @@ def step_invalid_mobile(context):
 
     context.login_page.click_continue()
 
+    # ==============================================
+    # ASSERT INVALID MOBILE ENTERED
+    # ==============================================
+
+    assert invalid_mobile is not None, (
+        "Invalid Mobile Number Not Entered"
+    )
+
+    capture_screenshot(
+        context.driver,
+        "invalid_mobile_entered"
+    )
+
 
 # ==================================================
 # VERIFY INVALID MOBILE ERROR
@@ -227,8 +319,7 @@ def step_invalid_mobile_error(context):
     assert context.login_page.is_displayed(
         LoginLocators.INVALID_MOBILE_POPUP
     ), (
-        "Invalid Mobile Error "
-        "Not Displayed"
+        "Invalid Mobile Error Not Displayed"
     )
 
     capture_screenshot(
@@ -248,6 +339,11 @@ def step_invalid_otp(context):
 
     context.login_page.click_verify_continue()
 
+    capture_screenshot(
+        context.driver,
+        "invalid_otp_entered"
+    )
+
 
 # ==================================================
 # VERIFY INVALID OTP ERROR
@@ -259,14 +355,14 @@ def step_invalid_otp_error(context):
     assert context.login_page.is_displayed(
         LoginLocators.INVALID_OTP_POPUP
     ), (
-        "Invalid OTP Error "
-        "Not Displayed"
+        "Invalid OTP Error Not Displayed"
     )
 
     capture_screenshot(
         context.driver,
         "invalid_otp_error"
     )
+
 
 # ==================================================
 # ENTER OTP
@@ -291,11 +387,20 @@ def step_enter_otp(context):
 
             time.sleep(2)
 
+    # ==============================================
+    # ASSERT VERIFY BUTTON CLICKED
+    # ==============================================
+
     assert verify_clicked, (
         "Verify Button Not Clicked"
     )
 
     time.sleep(5)
+
+    capture_screenshot(
+        context.driver,
+        "otp_verified"
+    )
 
 
 # ==================================================
@@ -308,4 +413,11 @@ def step_login_success(context):
     assert (
         "bigbasket"
         in context.driver.current_url.lower()
-    ), "Login Failed"
+    ), (
+        "Login Failed"
+    )
+
+    capture_screenshot(
+        context.driver,
+        "login_successful"
+    )

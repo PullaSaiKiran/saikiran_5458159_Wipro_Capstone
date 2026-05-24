@@ -30,6 +30,20 @@ class CartPage(BasePage):
         )
 
     # ==================================================
+    # CHECK PRODUCT IN CART
+    # ==================================================
+
+    def is_product_in_cart(
+            self,
+            product_name
+    ):
+        cart_items = self.driver.page_source.lower()
+
+        return (
+                product_name.lower()
+                in cart_items
+        )
+    # ==================================================
     # VERIFY CART HAS ITEMS
     # ==================================================
 

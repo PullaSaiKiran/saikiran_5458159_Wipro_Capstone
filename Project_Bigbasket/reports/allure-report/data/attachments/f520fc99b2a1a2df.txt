@@ -1,0 +1,11 @@
+[32mINFO    [0m root:conftest.py:116 Opened Browser: edge
+[32mINFO    [0m root:conftest.py:122 Opened URL: https://www.bigbasket.com/
+[32mINFO    [0m root:test_test_cases.py:56 Opening BigBasket Website
+[32mINFO    [0m root:test_test_cases.py:66 Clicking Login Button
+[32mINFO    [0m root:test_test_cases.py:74 Entering Mobile Number
+[32mINFO    [0m root:test_test_cases.py:84 Clicking Continue Button
+[32mINFO    [0m root:test_test_cases.py:90 Waiting For OTP Entry
+[32mINFO    [0m root:test_test_cases.py:96 Clicking Verify & Continue
+[32mINFO    [0m root:test_test_cases.py:113 Login Screenshot Captured
+[32mINFO    [0m root:test_test_cases.py:117 Valid Login Test Passed
+[32mINFO    [0m root:conftest.py:166 Closing Browser
