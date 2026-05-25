@@ -1,6 +1,13 @@
-import time
 import pytest
 import allure
+
+from selenium.webdriver.support.ui import (
+    WebDriverWait
+)
+
+from selenium.webdriver.support import (
+    expected_conditions as EC
+)
 
 from pages.cart_page import CartPage
 from pages.ghee_page import GheePage
@@ -41,6 +48,24 @@ ghee_brand = data[1]["brand"]
 
 
 # ==========================================
+# WAIT METHOD
+# ==========================================
+
+def wait_until(
+        driver,
+        condition,
+        timeout=20
+):
+
+    return WebDriverWait(
+        driver,
+        timeout
+    ).until(
+        condition
+    )
+
+
+# ==========================================
 # TEST CASE 1
 # VALID LOGIN
 # ==========================================
@@ -59,7 +84,12 @@ def test_valid_login(driver):
 
     login.open_bigbasket()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        "bigbasket"
+        in d.current_url.lower()
+    )
 
     # ASSERT
 
@@ -76,7 +106,11 @@ def test_valid_login(driver):
 
     login.click_login()
 
-    time.sleep(3)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_popup_displayed()
+    )
 
     # ASSERT
 
@@ -93,8 +127,6 @@ def test_valid_login(driver):
     login.enter_mobile_email(
         mobile
     )
-
-    time.sleep(3)
 
     # ASSERT
 
@@ -113,10 +145,12 @@ def test_valid_login(driver):
     login.click_continue()
 
     logger.info(
-        "Waiting For OTP Entry"
+        "Enter OTP Manually"
     )
 
-    time.sleep(30)
+    input(
+        "Enter OTP And Press ENTER..."
+    )
 
     logger.info(
         "Clicking Verify & Continue"
@@ -124,7 +158,11 @@ def test_valid_login(driver):
 
     login.click_verify_continue()
 
-    time.sleep(10)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_successful()
+    )
 
     # ASSERT
 
@@ -169,25 +207,38 @@ def test_tea_flow(driver):
 
     login.open_bigbasket()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        "bigbasket"
+        in d.current_url.lower()
+    )
 
     login.click_login()
 
-    time.sleep(3)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_popup_displayed()
+    )
 
     login.enter_mobile_email(
         mobile
     )
 
-    time.sleep(3)
-
     login.click_continue()
 
-    time.sleep(30)
+    input(
+        "Enter OTP And Press ENTER..."
+    )
 
     login.click_verify_continue()
 
-    time.sleep(10)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_successful()
+    )
 
     # ASSERT
 
@@ -205,7 +256,11 @@ def test_tea_flow(driver):
 
     home.click_tea()
 
-    time.sleep(10)
+    wait_until(
+        driver,
+        lambda d:
+        product.tea_page_displayed()
+    )
 
     # ASSERT
 
@@ -221,7 +276,11 @@ def test_tea_flow(driver):
 
     product.filter_exotic_tea()
 
-    time.sleep(8)
+    wait_until(
+        driver,
+        lambda d:
+        product.exotic_tea_displayed()
+    )
 
     # ASSERT
 
@@ -237,7 +296,13 @@ def test_tea_flow(driver):
 
     product.apply_brand_chai_point()
 
-    time.sleep(8)
+    wait_until(
+        driver,
+        lambda d:
+        product.brand_filter_applied(
+            tea_brand
+        )
+    )
 
     # ASSERT
 
@@ -250,16 +315,16 @@ def test_tea_flow(driver):
     )
 
     logger.info(
-        "Tea Brand Filter Applied Successfully"
-    )
-
-    logger.info(
         "Adding Tea Product To Cart"
     )
 
     product.add_first_product_to_cart()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        product.product_added_successfully()
+    )
 
     # ASSERT
 
@@ -304,25 +369,38 @@ def test_ghee_flow(driver):
 
     login.open_bigbasket()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        "bigbasket"
+        in d.current_url.lower()
+    )
 
     login.click_login()
 
-    time.sleep(3)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_popup_displayed()
+    )
 
     login.enter_mobile_email(
         mobile
     )
 
-    time.sleep(3)
-
     login.click_continue()
 
-    time.sleep(30)
+    input(
+        "Enter OTP And Press ENTER..."
+    )
 
     login.click_verify_continue()
 
-    time.sleep(10)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_successful()
+    )
 
     # ASSERT
 
@@ -340,7 +418,11 @@ def test_ghee_flow(driver):
 
     home.click_ghee()
 
-    time.sleep(15)
+    wait_until(
+        driver,
+        lambda d:
+        ghee_page.ghee_page_displayed()
+    )
 
     # ASSERT
 
@@ -356,7 +438,11 @@ def test_ghee_flow(driver):
 
     ghee_page.click_ghee_vanaspati()
 
-    time.sleep(10)
+    wait_until(
+        driver,
+        lambda d:
+        ghee_page.ghee_category_displayed()
+    )
 
     # ASSERT
 
@@ -372,7 +458,13 @@ def test_ghee_flow(driver):
 
     ghee_page.apply_brand_amul()
 
-    time.sleep(15)
+    wait_until(
+        driver,
+        lambda d:
+        ghee_page.brand_filter_applied(
+            ghee_brand
+        )
+    )
 
     # ASSERT
 
@@ -385,16 +477,16 @@ def test_ghee_flow(driver):
     )
 
     logger.info(
-        "Ghee Brand Filter Applied Successfully"
-    )
-
-    logger.info(
         "Adding Ghee Product To Cart"
     )
 
     ghee_page.add_first_product_to_cart()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        ghee_page.product_added_successfully()
+    )
 
     # ASSERT
 
@@ -439,25 +531,38 @@ def test_checkout_flow(driver):
 
     login.open_bigbasket()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        "bigbasket"
+        in d.current_url.lower()
+    )
 
     login.click_login()
 
-    time.sleep(3)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_popup_displayed()
+    )
 
     login.enter_mobile_email(
         mobile
     )
 
-    time.sleep(3)
-
     login.click_continue()
 
-    time.sleep(30)
+    input(
+        "Enter OTP And Press ENTER..."
+    )
 
     login.click_verify_continue()
 
-    time.sleep(10)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_successful()
+    )
 
     # ASSERT
 
@@ -475,7 +580,11 @@ def test_checkout_flow(driver):
 
     home.click_basket()
 
-    time.sleep(10)
+    wait_until(
+        driver,
+        lambda d:
+        cart.cart_page_displayed()
+    )
 
     # ASSERT
 
@@ -508,7 +617,11 @@ def test_checkout_flow(driver):
 
     cart.click_proceed()
 
-    time.sleep(10)
+    wait_until(
+        driver,
+        lambda d:
+        cart.checkout_page_displayed()
+    )
 
     # ASSERT
 
@@ -551,11 +664,20 @@ def test_invalid_phone(driver):
 
     login.open_bigbasket()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        "bigbasket"
+        in d.current_url.lower()
+    )
 
     login.click_login()
 
-    time.sleep(3)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_popup_displayed()
+    )
 
     # ASSERT
 
@@ -573,11 +695,13 @@ def test_invalid_phone(driver):
         "1234565470"
     )
 
-    time.sleep(2)
-
     login.click_continue()
 
-    time.sleep(3)
+    wait_until(
+        driver,
+        lambda d:
+        login.invalid_mobile_error_displayed()
+    )
 
     take_screenshot(
         driver,
@@ -620,31 +744,43 @@ def test_invalid_otp(driver):
 
     login.open_bigbasket()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        "bigbasket"
+        in d.current_url.lower()
+    )
 
     login.click_login()
 
-    time.sleep(3)
+    wait_until(
+        driver,
+        lambda d:
+        login.login_popup_displayed()
+    )
 
     login.enter_mobile_email(
         mobile
     )
 
-    time.sleep(3)
-
     login.click_continue()
-
-    time.sleep(5)
 
     logger.info(
         "Enter Invalid OTP Manually"
     )
 
-    time.sleep(15)
+    input(
+        "Enter Invalid OTP "
+        "And Press ENTER..."
+    )
 
     login.click_verify_continue()
 
-    time.sleep(5)
+    wait_until(
+        driver,
+        lambda d:
+        login.invalid_otp_error_displayed()
+    )
 
     take_screenshot(
         driver,

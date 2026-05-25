@@ -1,7 +1,14 @@
 import os
-import time
 import pytest
 import allure
+
+from selenium.webdriver.support.ui import (
+    WebDriverWait
+)
+
+from selenium.webdriver.support import (
+    expected_conditions as EC
+)
 
 from pages.ghee_page import GheePage
 from pages.login_page import LoginPage
@@ -24,6 +31,11 @@ logger = LogGen.loggen()
 
 @pytest.mark.usefixtures("driver")
 def test_bigbasket_flow(driver):
+
+    wait = WebDriverWait(
+        driver,
+        20
+    )
 
     login = LoginPage(driver)
 
@@ -76,7 +88,11 @@ def test_bigbasket_flow(driver):
 
     login.open_bigbasket()
 
-    time.sleep(5)
+    wait.until(
+        lambda d:
+        "bigbasket"
+        in d.current_url.lower()
+    )
 
     # ASSERT
 
@@ -97,7 +113,10 @@ def test_bigbasket_flow(driver):
 
     login.click_login()
 
-    time.sleep(3)
+    wait.until(
+        lambda d:
+        login.login_popup_displayed()
+    )
 
     # ASSERT
 
@@ -114,8 +133,6 @@ def test_bigbasket_flow(driver):
     login.enter_mobile_email(
         mobile
     )
-
-    time.sleep(3)
 
     # ASSERT
 
@@ -134,10 +151,13 @@ def test_bigbasket_flow(driver):
     login.click_continue()
 
     logger.info(
-        "Waiting for OTP entry in browser"
+        "Waiting For OTP Entry"
     )
 
-    time.sleep(30)
+    input(
+        "Enter OTP Manually "
+        "And Press ENTER..."
+    )
 
     logger.info(
         "Clicking Verify & Continue"
@@ -145,7 +165,10 @@ def test_bigbasket_flow(driver):
 
     login.click_verify_continue()
 
-    time.sleep(10)
+    wait.until(
+        lambda d:
+        login.login_successful()
+    )
 
     # ASSERT
 
@@ -175,12 +198,15 @@ def test_bigbasket_flow(driver):
     # =========================
 
     logger.info(
-        f"Navigating to {tea_category}"
+        f"Navigating To {tea_category}"
     )
 
     home.click_tea()
 
-    time.sleep(10)
+    wait.until(
+        lambda d:
+        product.tea_page_displayed()
+    )
 
     # ASSERT
 
@@ -196,7 +222,10 @@ def test_bigbasket_flow(driver):
 
     product.filter_exotic_tea()
 
-    time.sleep(8)
+    wait.until(
+        lambda d:
+        product.exotic_tea_displayed()
+    )
 
     # ASSERT
 
@@ -212,7 +241,12 @@ def test_bigbasket_flow(driver):
 
     product.apply_brand_chai_point()
 
-    time.sleep(8)
+    wait.until(
+        lambda d:
+        product.brand_filter_applied(
+            tea_brand
+        )
+    )
 
     # ASSERT
 
@@ -229,12 +263,15 @@ def test_bigbasket_flow(driver):
     )
 
     logger.info(
-        "Adding Tea Product to cart"
+        "Adding Tea Product To Cart"
     )
 
     product.add_first_product_to_cart()
 
-    time.sleep(5)
+    wait.until(
+        lambda d:
+        product.product_added_successfully()
+    )
 
     # ASSERT
 
@@ -260,12 +297,15 @@ def test_bigbasket_flow(driver):
     # =========================
 
     logger.info(
-        f"Navigating to {ghee_category}"
+        f"Navigating To {ghee_category}"
     )
 
     home.click_ghee()
 
-    time.sleep(15)
+    wait.until(
+        lambda d:
+        ghee_page.ghee_page_displayed()
+    )
 
     # ASSERT
 
@@ -281,7 +321,10 @@ def test_bigbasket_flow(driver):
 
     ghee_page.click_ghee_vanaspati()
 
-    time.sleep(10)
+    wait.until(
+        lambda d:
+        ghee_page.ghee_category_displayed()
+    )
 
     # ASSERT
 
@@ -297,7 +340,12 @@ def test_bigbasket_flow(driver):
 
     ghee_page.apply_brand_amul()
 
-    time.sleep(15)
+    wait.until(
+        lambda d:
+        ghee_page.brand_filter_applied(
+            ghee_brand
+        )
+    )
 
     # ASSERT
 
@@ -314,12 +362,15 @@ def test_bigbasket_flow(driver):
     )
 
     logger.info(
-        "Adding Ghee Product to cart"
+        "Adding Ghee Product To Cart"
     )
 
     ghee_page.add_first_product_to_cart()
 
-    time.sleep(5)
+    wait.until(
+        lambda d:
+        ghee_page.product_added_successfully()
+    )
 
     # ASSERT
 
@@ -350,7 +401,10 @@ def test_bigbasket_flow(driver):
 
     home.click_basket()
 
-    time.sleep(10)
+    wait.until(
+        lambda d:
+        cart.cart_page_displayed()
+    )
 
     # ASSERT
 
@@ -384,12 +438,15 @@ def test_bigbasket_flow(driver):
     )
 
     logger.info(
-        "Proceeding to Checkout"
+        "Proceeding To Checkout"
     )
 
     cart.click_proceed()
 
-    time.sleep(10)
+    wait.until(
+        lambda d:
+        cart.checkout_page_displayed()
+    )
 
     # ASSERT
 
